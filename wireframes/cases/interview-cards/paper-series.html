@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Koi StyleKit · 纸雕系列</title>
+<style>body{max-width:1050px;margin:auto;padding:24px;font-family:system-ui;line-height:1.7;color:#183e42;background:#faf8f3}img{display:block;width:100%;height:auto;border-radius:16px}section{margin:36px 0}a{color:#235c70}p{max-width:760px}small{color:#62635d}</style>
+<nav><a href="../../">风格画廊</a> · <a href="alternatives.html">其他风格</a></nav>
+<h1>纸张有层次，概念更清楚</h1><p><strong>当前状态：用户接受此系列作为 Alpha 视觉基线。</strong>额外元素、布局漂移与跨模型稳定性仍有限制。</p>
+<p>米白纸底、青绿主体、珊瑚色重点。用同一套纸雕语言，表达两种 AI 工作场景。</p>
+<section><h2>01 · 查资料，再组织回答</h2><img src="paper.png" alt="纸雕文件集合经放大镜选取片段，再组织成回答卡片"><p>从资料中找到相关片段，再用于回答。</p><small>用户已选中的风格参考图 · AI 生成</small><p><a href="paper-prompt.txt">查看提示词</a></p></section>
+<section><h2>02 · 调用天气工具，再回答</h2><img src="paper-weather.png" alt="带位置标记的提问气泡连接天气查询工具，再连接包含天气结果的回答气泡"><p>例如，你问“成都明天出门要带伞吗？”AI 请求天气工具查询成都明天的预报，应用执行查询并返回数据，AI 再根据结果给出建议。</p><ol><li>用户提问：明确地点和日期。</li><li>AI 请求调用天气工具，应用执行查询并把结果交回 AI。</li><li>AI 根据返回的天气数据组织回答。</li></ol><p>这里展示的是天气查询这一种工具调用。示例没有发起真实查询，图中的天气符号不代表成都的实际预报。</p><small>沿用第一张作为风格参考 · AI 生成 · Alpha 视觉基线</small><p><a href="paper-weather-prompt.txt">查看提示词</a></p><details><summary>早期计算工具案例</summary><p>计算器适合说明计算任务，但不能代表所有工具调用。</p><a href="paper-tool.png">查看计算器候选图</a> · <a href="paper-tool-prompt.txt">原提示词</a></details></section>
+<p>这两张是概念配图，不包含完整的 RAG 或工具调用协议。尚未接入面试卡产品，学习效果未验证。</p>
+<section><h2>03 · 中文导出配方实测（无参考图）</h2><img src="paper-direct.png" alt="中文配方生成的纸雕天气场景，含地图、天气卡与机器人回答气泡"><p>将 CLI 导出的 prompt_zh 原样传给内置 imagegen，一次生成，不附参考图。纸纹、层叠感与主配色延续，但新增地图、机器人图标，箭头与雨滴的配色也不同。它是一次实际输出，尚不证明跨主题或跨模型稳定性。</p><p>与上图的生成条件不同：上图使用英文提示词和参考图，因此这里只对照实际效果，不能单独归因于语言或参考图。</p><a href="paper-direct.json">下载实际导出包</a><p>当前效果获 Alpha 认可，不代表严格复现。未调用真实天气服务。</p></section><section><h2>04 · 换主题：书店取书</h2><img src="paper-bookshop.png" alt="纸雕书店里两只手交接一本书，青绿与珊瑚配色"><p>同一中文风格配方，仅替换主题，16:9、遵循风格配色、无参考图，一次生成。纸张纤维、层叠感与主配色延续，递书动作可辨；模型额外加入了柜台和植物，没有完全遵守“背景仅几本书”的要求。</p><p>这次支持纸雕媒介可以用于另一类主题的初步观察，但仍不能保证背景约束、跨模型或重复生成的一致性。当前效果获 Alpha 认可，不代表严格复现。</p><a href="paper-bookshop.json">下载实际导出包</a></section></html>

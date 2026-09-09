@@ -1,0 +1,22 @@
+{
+  "schema": "koi-stylekit.v0.2",
+  "style": {
+    "id": "duotone-print",
+    "name": "双色孔版",
+    "version": "0.2-candidate",
+    "source": "参考 yang0 #167 的媒介分类；本配方自行撰写"
+  },
+  "brief": {
+    "subject": "一名成年学习者坐在桌边，把一道计算任务交给桌上的计算器，查看计算器结果后回到自己的答题卡。计算器屏幕保持空白，动作表达借助工具完成计算；画面不出现文字。",
+    "purpose": "single",
+    "aspect": "16:9",
+    "caption": null,
+    "color_policy": "style"
+  },
+  "validation": "样图方向获认可；跨主题稳定性待验证",
+  "palette_variant": false,
+  "color_hints": [],
+  "warnings": [],
+  "status": "ready",
+  "prompt_zh": "Two-Color Risograph Drawing. 双色孔版手绘。主题：一名成年学习者坐在桌边，把一道计算任务交给桌上的计算器，查看计算器结果后回到自己的答题卡。计算器屏幕保持空白，动作表达借助工具完成计算；画面不出现文字。\n双色套印、轻微错版、粗颗粒、纸张质感。仅使用珊瑚红与蓝色两种印墨和白纸底色，粗颗粒应表现为印墨不均与纸白露出，保留手绘形状。不要文字。单张完整插画。\n\n突出一个主要场景，动作关系清楚。\n\n配色选择：以本风格配色为准。主题中的物体与动作保留，其中的颜色要求可被风格配色替代。\n\n画幅比例：16:9\n\n不绘制文字。"
+}

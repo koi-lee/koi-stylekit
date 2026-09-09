@@ -65,7 +65,7 @@ python3 scripts/koi.py render --style duotone-print --subject '绿色的书' --c
 
 - 主题只在浏览器与本机渲染器内存中处理，不上传外部服务，不记入日志；主动导出会保存到用户下载文件。
 - “记住风格”仅在浏览器保存风格 ID。服务监听 `127.0.0.1`，不应作为公网服务器部署。
-- 三种候选风格；单张样图认可不等于跨主题、跨模型稳定性验证。三步讲解与封面用途尚未完整生图验收。
+- 四种候选风格；单张样图认可不等于跨主题、跨模型稳定性验证。三步讲解与封面用途尚未完整生图验收。
 - 不包含在线生图、英文配方、参考图输入、MCP、付费功能或自动社交发布。
 - 主画廊全部使用本地样图；研究对照页含外部参考图链接。
 
@@ -81,7 +81,7 @@ python3 scripts/koi.py render --style duotone-print --subject '绿色的书' --c
 python3 -m unittest discover -s tests -v
 ```
 
-本机隔离目录安装与 CLI/HTTP 一致性已验证。新增 CI 配置计划覆盖三种系统、Python 3.10/3.14；首次远程运行结果待推送后核验，暂不宣称全部兼容。
+本机隔离目录安装与 CLI/HTTP 一致性已验证。已公开提交 `718e17c` 的 [CI 六个任务](https://github.com/koi-lee/koi-stylekit/actions/runs/34353689951)通过（Windows/macOS/Ubuntu × Python 3.10/3.14）；当前新增纸雕改动仅完成本地验证，远程 CI 待推送后运行。
 
 [贡献说明](CONTRIBUTING.md) · [当前状态与路线](docs/项目流程图.md) · [验收记录](docs/验收记录.md) · [画风验证](docs/画风验证.md)
 
@@ -90,3 +90,13 @@ python3 -m unittest discover -s tests -v
 感谢 [threerocks/hand-drawn-styles](https://github.com/threerocks/hand-drawn-styles) 的配方与流程，以及 [yang0/handraw-style](https://github.com/yang0/handraw-style) 的编号画廊与媒介分类启发。具体使用范围见 [ATTRIBUTION.md](ATTRIBUTION.md)。不包含 yang0 完整库或原始图片。
 
 新增代码与文档采用 [MIT](LICENSE)，保留 [上游 MIT 署名](docs/THIRD_PARTY_LICENSES.txt)。
+
+### 层叠纸雕（候选）
+
+选择 `layered-paper` 可导出可替换主题的中文纸雕配方。样图使用独立英文提示词生成，后续系列图使用参考图；通用中文配方已完成天气、书店两个主题的无参考图生图，均出现额外元素，用户接受当前 Alpha 视觉基线，重复生成与跨模型稳定性仍待验证；导出不会自动附带参考图。
+
+```sh
+python3 scripts/koi.py render --style layered-paper --subject '用户查询天气，工具返回数据，AI 组织回答' --aspect 16:9 --color-policy style --format text
+```
+
+[查看纸雕系列与原始提示词](wireframes/cases/interview-cards/paper-series.html)。在本地画廊选择「层叠纸雕」后填写主题，再预览和导出。
