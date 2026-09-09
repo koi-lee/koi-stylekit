@@ -11,7 +11,7 @@ ASPECTS = (None, "1:1", "3:4", "16:9")
 COLORS = r"(?:红|橙|黄|绿|青|蓝|紫|粉|黑|白|灰|棕|褐|金|银)(?:色|衣|裙|帽|伞)|\b(?:red|orange|yellow|green|blue|purple|pink|black|white|grey|gray|brown)\b"
 
 def catalogue():
-    return json.loads((ROOT / "wireframes/styles.json").read_text())
+    return json.loads((ROOT / "wireframes/styles.json").read_text(encoding="utf-8"))
 
 def render(style, subject, purpose="single", aspect=None, caption=None, color_policy="ask"):
     if not isinstance(subject, str) or not subject.strip() or len(subject) > 1200:
@@ -54,7 +54,7 @@ def render_request(data):
     allowed = {"style_id", "subject", "purpose", "aspect", "caption", "color_policy"}
     if set(data) - allowed:
         raise ValueError("存在未知输入字段")
-    style = next((s for s in catalogue() if s["id"] == data.get("style_id")), None)
+    style = next((s for s in catalogue() if (s["id"] == data.get("style_id") or data.get("style_id") in s.get("aliases", []))), None)
     if style is None:
         raise ValueError("请选择有效风格")
     return render(style, data.get("subject"), data.get("purpose", "single"), data.get("aspect"), data.get("caption"), data.get("color_policy", "ask"))

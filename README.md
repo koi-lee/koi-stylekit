@@ -1,55 +1,92 @@
 # Koi StyleKit
 
-本地插画风格工具箱候选版：真实参考样图、中文提示词、风格包导出，以及共用渲染器的 Python CLI 与 Skill。
+先看插画效果，再选画风、填主题，把配方留给下一次创作。
 
-## 启动
+A local illustration style gallery, Python CLI, and agent skill sharing one prompt renderer. **Exports prompts; does not generate images.**
 
-需要 Python 3.10+，无第三方依赖。在仓库根目录运行：
+当前为 Alpha。源代码已公开；下面是 AI 生成的候选样图，不能保证新主题或其他模型得到相同效果。
+
+| 淡彩速写 | 双色孔版 | 彩铅日记 |
+| --- | --- | --- |
+| ![淡彩速写](wireframes/assets/style-10-rain-v1.png) | ![双色孔版](wireframes/assets/yang-167-v1.png) | ![彩铅日记](wireframes/assets/yang-169-v1.png) |
+| `emotional-sketch` | `duotone-print` | `colored-pencil-diary` |
+
+## 五分钟开始
+
+需要 Python 3.10+，无需安装第三方依赖。
 
 ```sh
+git clone https://github.com/koi-lee/koi-stylekit.git
+cd koi-stylekit
 python3 scripts/serve.py
 ```
 
-打开 http://127.0.0.1:4317/ 。旧的 `python3 -m http.server` 只能展示静态页，不能处理本版导出。
+Windows 可将 `python3` 换成 `py -3`。也可从 GitHub 的 Code → Download ZIP 下载，解压后进入目录执行启动命令。
 
-选择双色孔版 → 填入示例 → 预览 → 按提示选择配色优先级 → 再次预览 → 复制或下载风格包。
+打开 [本地画廊](http://127.0.0.1:4317/)，按顺序体验：
 
-网页只向本机渲染器发送主题，不调用 AI 或外部服务，不记录请求正文。“记住风格”只在浏览器保存风格 ID。对照页包含外部样图链接；主画廊图片均在本地。
+1. 选择“双色孔版”，点击“填入示例主题”。
+2. 点击预览；示例中的绿色书本会触发配色提醒。
+3. 选择遵循风格，或保留主题颜色，再预览。
+4. 复制提示词到你使用的生图工具，或下载 JSON 保存配方。
+5. 点击“沿用风格”更换主题。
 
-## CLI
+图片不会在网页中自动生成；保留主题颜色会得到未经生图验证的配色变体。
+
+## 命令行
 
 ```sh
 python3 scripts/koi.py list
+python3 scripts/koi.py render --style colored-pencil-diary --subject '猫撑伞' --format text
 python3 scripts/koi.py render --style duotone-print --subject '绿色的书' --color-policy subject
-python3 scripts/koi.py render --style duotone-print --subject '猫撑伞' --format text
 ```
 
-可选参数：`--purpose single|explain|cover`、`--aspect 1:1|3:4|16:9`、`--caption '独立标题'`。
+| 参数 | 用法 |
+| --- | --- |
+| `--purpose` | `single` 单场景（默认）、`explain` 三步讲解、`cover` 封面留字区 |
+| `--aspect` | 可选 `1:1`、`3:4`、`16:9`；不传则不指定 |
+| `--caption` | 独立标题，只进入 JSON，不要求图片模型绘制文字 |
+| `--color-policy` | `ask`（默认）、`style` 遵循风格、`subject` 保留主题颜色 |
+| `--format` | `json`（默认）或 `text` |
 
-固定配色检测到常见颜色词时，默认返回 `needs_color_choice`、空提示词并以退出码 2 结束。使用 `--color-policy style` 遵循风格，或 `subject` 保留主题颜色。检测是保守词语匹配，会漏报或误报；用户可主动选择。保留主题颜色会放宽固定配色并标为未验证变体。
+默认配色检测是保守的颜色词匹配，可能误报或漏报。需要选择时，JSON 返回 `status: needs_color_choice`、`prompt_zh: null`，退出码为 2。文本模式会显示提示，不输出矛盾配方。其他输入错误也使用退出码 2。
 
-网页 `/api/render` 与 CLI 共用 scripts/koi.py；导出 schema 为 koi-stylekit.v0.2。标题独立保存，不要求图片模型绘制文字。
+网页与 CLI 共用 `scripts/koi.py`，导出格式为 `koi-stylekit.v0.2`。旧 ID `minimal-line`、`ink-accent` 继续兼容，导出统一使用上表的新 ID。
 
-## Skill
+## 在 Agent 中使用
 
-入口为 SKILL.md，需要完整仓库中的 scripts 和 wireframes/styles.json。尚未全局安装；没有在线生图、英文翻译、MCP 或自动发布能力。
+让支持读取本地文件和运行命令的 Agent 阅读仓库根目录 [SKILL.md](SKILL.md)，例如：
 
-## 验证
+> 读取这个仓库的 SKILL.md，用彩铅日记风格生成“猫在雨中撑伞”的提示词。
+
+安装为宿主技能时须保留**完整仓库**，不能只复制 SKILL.md；自动发现目录按宿主说明设置。本项目不修改全局配置。文件格式已检查，宿主自动发现和模型行为尚未全面验证。
+
+## 数据与限制
+
+- 主题只在浏览器与本机渲染器内存中处理，不上传外部服务，不记入日志；主动导出会保存到用户下载文件。
+- “记住风格”仅在浏览器保存风格 ID。服务监听 `127.0.0.1`，不应作为公网服务器部署。
+- 三种候选风格；单张样图认可不等于跨主题、跨模型稳定性验证。三步讲解与封面用途尚未完整生图验收。
+- 不包含在线生图、英文配方、参考图输入、MCP、付费功能或自动社交发布。
+- 主画廊全部使用本地样图；研究对照页含外部参考图链接。
+
+## 常见问题
+
+端口占用：运行 `python3 scripts/serve.py --port 4318`，然后访问对应端口。服务停止后可重新执行命令；网页保留的输入可再次预览。
+
+能打开页面但不能导出：请用 `scripts/serve.py` 启动。直接打开 HTML 或用普通 `http.server` 不支持渲染接口。
+
+## 验证与贡献
 
 ```sh
 python3 -m unittest discover -s tests -v
 ```
 
-测试涵盖 HTTP/CLI 导出相等、配色选择、标题分离、输入校验。实际图片仅为候选效果；用户认可了画风方向，未完成广泛跨主题或跨模型稳定性验证。
+本机隔离目录安装与 CLI/HTTP 一致性已验证。新增 CI 配置计划覆盖三种系统、Python 3.10/3.14；首次远程运行结果待推送后核验，暂不宣称全部兼容。
 
-[画风验证](docs/画风验证.md) · [验收记录](docs/验收记录.md) · [项目流程](docs/项目流程图.md)
+[贡献说明](CONTRIBUTING.md) · [当前状态与路线](docs/项目流程图.md) · [验收记录](docs/验收记录.md) · [画风验证](docs/画风验证.md)
 
-上游配方来源和许可见 styles.json 与 docs/THIRD_PARTY_LICENSES.txt。yang0 完整库和原始样图未打包。项目新增代码与文档采用 MIT，来源见 [ATTRIBUTION.md](ATTRIBUTION.md)。尚未提交、推送或发布；跨操作系统测试仍待完成。
+## 来源与许可
 
-## 从下载包开始
+感谢 [threerocks/hand-drawn-styles](https://github.com/threerocks/hand-drawn-styles) 的配方与流程，以及 [yang0/handraw-style](https://github.com/yang0/handraw-style) 的编号画廊与媒介分类启发。具体使用范围见 [ATTRIBUTION.md](ATTRIBUTION.md)。不包含 yang0 完整库或原始图片。
 
-下载并解压完整仓库到任意目录，进入该目录后执行启动命令。无需 pip install。不要仅下载 SKILL.md。
-
-在支持自定义 Skill 的宿主中，将完整目录作为 Skill 包使用；具体发现目录按宿主配置。此仓库不自动改写全局技能目录。可以先让 Agent 阅读根目录 SKILL.md，再按其中命令验证调用。
-
-静态 HTML 单独打开不能导出，需要运行本地 Python 服务。服务默认仅监听 127.0.0.1，端口占用时可运行 `python3 scripts/serve.py --port 4318`。
+新增代码与文档采用 [MIT](LICENSE)，保留 [上游 MIT 署名](docs/THIRD_PARTY_LICENSES.txt)。

@@ -11,13 +11,20 @@ from koi import render_request, ROOT
 from serve import make_server
 
 class RenderTests(unittest.TestCase):
+    def test_legacy_ids_export_canonical_ids(self):
+        for old, new in [('minimal-line','emotional-sketch'),('ink-accent','colored-pencil-diary')]:
+            old_result=render_request(dict(style_id=old,subject='猫撑伞'))
+            new_result=render_request(dict(style_id=new,subject='猫撑伞'))
+            self.assertEqual(old_result,new_result)
+            self.assertEqual(old_result['style']['id'],new)
+
     def test_choice_blocks_export(self):
         r=render_request(dict(style_id='duotone-print',subject='绿色的书'))
         self.assertEqual(r['status'],'needs_color_choice')
         self.assertIsNone(r['prompt_zh'])
 
     def test_subject_color_removes_fixed_palette(self):
-        for style in ['duotone-print','minimal-line']:
+        for style in ['duotone-print','emotional-sketch']:
             r=render_request(dict(style_id=style,subject='绿色的书',color_policy='subject'))
             self.assertTrue(r['palette_variant'])
             self.assertIn('绿色的书',r['prompt_zh'])
@@ -25,7 +32,7 @@ class RenderTests(unittest.TestCase):
             self.assertNotIn('仅使用珊瑚红',r['prompt_zh'])
 
     def test_title_separate_and_subject_literal(self):
-        r=render_request(dict(style_id='ink-accent',subject='猫 {subject} $(echo x)',caption='春日故事',aspect='3:4'))
+        r=render_request(dict(style_id='colored-pencil-diary',subject='猫 {subject} $(echo x)',caption='春日故事',aspect='3:4'))
         self.assertEqual(r['brief']['caption'],'春日故事')
         self.assertNotIn('春日故事',r['prompt_zh'])
         self.assertIn('猫 {subject} $(echo x)',r['prompt_zh'])
@@ -34,7 +41,7 @@ class RenderTests(unittest.TestCase):
     def test_invalid_inputs(self):
         for extra in [dict(subject=' '),dict(aspect='9:9'),dict(purpose='bad'),dict(caption='x'*81),dict(color_policy='bad')]:
             with self.assertRaises(ValueError):
-                render_request(dict(dict(style_id='ink-accent',subject='猫'),**extra))
+                render_request(dict(dict(style_id='colored-pencil-diary',subject='猫'),**extra))
 
     def test_cli_http_exact_equality(self):
         server=make_server(0)
