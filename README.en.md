@@ -1,6 +1,6 @@
 # Koi StyleKit
 
-[简体中文](README.md) | **English**
+[简体中文](README.md) | **English** | [日本語](README.ja.md) | [한국어](README.ko.md)
 
 Preview illustration styles, choose a recipe, and reuse it with a new subject.
 

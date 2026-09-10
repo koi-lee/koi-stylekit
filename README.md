@@ -1,6 +1,6 @@
 # Koi StyleKit
 
-**简体中文** | [English](README.en.md)
+**简体中文** | [English](README.en.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
 先看插画效果，再选画风、填主题，把配方留给下一次创作。
 
