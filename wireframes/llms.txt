@@ -7,7 +7,7 @@ It contains 300+ reusable style recipes grouped into 48 style families.
 
 - Browse, search, filter, compare, favorite, and paginate illustration styles.
 - Export Chinese prompt recipes and a JSON style package.
-- Run locally with Python; the tool does not call an image-generation API.
+- Run as a static website without a backend; Python CLI and Agent Skill remain available. No image-generation API is called.
 
 ## Canonical project files
 

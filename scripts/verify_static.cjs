@@ -1,0 +1,40 @@
+// Run with Playwright available through NODE_PATH. Start ordinary servers on 4320/4321.
+const {chromium}=require('playwright');
+const fs=require('node:fs');
+const assert=require('node:assert/strict');
+(async()=>{
+ const browser=await chromium.launch({headless:true,channel:process.env.BROWSER_CHANNEL||'chrome'});
+ fs.mkdirSync('outputs/static',{recursive:true});
+ const context=await browser.newContext({viewport:{width:1280,height:900},acceptDownloads:true,permissions:['clipboard-read','clipboard-write']});
+ const page=await context.newPage(), requests=[], errors=[];
+ page.on('request',r=>requests.push({url:r.url(),method:r.method()}));page.on('pageerror',e=>errors.push(e.message));
+ const base='http://127.0.0.1:4320/dist/';
+ await page.goto(base);await page.locator('#cards .card').first().waitFor();
+ assert.equal(await page.locator('#cards .card').count(),48);
+ await page.selectOption('#browseMode','all');await page.selectOption('#pageSize','100');assert.equal(await page.locator('#cards .card').count(),100);
+ await page.selectOption('#browseMode','families');
+ await page.locator('#cards input[type=checkbox]').nth(0).check();await page.locator('#cards input[type=checkbox]').nth(1).check();await page.click('#compareBtn');await page.locator('#comparison table').waitFor();
+ await page.getByRole('button',{name:'收藏淡彩速写',exact:true}).click();await page.selectOption('#browseMode','favorites');assert.equal(await page.locator('#cards .card').count(),1);
+ await page.reload();await page.selectOption('#browseMode','favorites');assert.equal(await page.locator('#cards .card').count(),1);
+ await page.selectOption('#browseMode','all');await page.fill('#search','双色孔版');
+ await page.locator('#cards .card').first().getByRole('button',{name:'查看详情',exact:true}).click();await page.locator('#detail[open]').waitFor();await page.click('#closeDetail');
+ await page.getByRole('button',{name:'选择双色孔版',exact:true}).click();
+ await page.fill('#subject','绿色的书与猫 🐟');await page.fill('#caption','静态下载验收');await page.selectOption('#aspect','3:4');
+ await page.getByRole('button',{name:'预览提示词 →'}).click();assert.match(await page.locator('#formError').innerText(),/颜色词/);
+ await page.selectOption('#colorPolicy','subject');await page.getByRole('button',{name:'预览提示词 →'}).click();await page.locator('#preview:not([hidden])').waitFor();
+ await page.click('#copy');assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),await page.locator('#promptText').innerText());
+ const downloadEvent=page.waitForEvent('download');await page.click('#download');const download=await downloadEvent;await download.saveAs('outputs/static/koi-stylekit.json');
+ const pack=JSON.parse(fs.readFileSync('outputs/static/koi-stylekit.json'));assert.equal(pack.brief.subject,'绿色的书与猫 🐟');assert.equal(pack.palette_variant,true);
+ const {execFileSync}=require('node:child_process');const cli=JSON.parse(execFileSync('python3',['scripts/koi.py','render','--style','duotone-print','--subject',pack.brief.subject,'--caption',pack.brief.caption,'--aspect','3:4','--color-policy','subject'],{encoding:'utf8'}));assert.deepEqual(pack,cli);
+ await page.screenshot({path:'outputs/static/desktop.png'});
+ await page.goto(base);await page.locator('#cards .card').first().waitFor();
+ for(const width of [320,390,440]){await page.setViewportSize({width,height:844});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth),width);assert.ok((await page.locator('#search').boundingBox()).width>width-40);await page.click('#mobileFilters');await page.selectOption('#category','纸艺');await page.click('#mobileFilters');await page.screenshot({path:`outputs/static/mobile-${width}.png`});await page.selectOption('#category','all',{force:true});}
+ await page.route('**/*-thumb.webp',r=>r.abort());await page.reload();await page.locator('#cards img').first().waitFor();await page.waitForFunction(()=>document.querySelector('#cards img')?.alt.includes('加载失败'));await page.unroute('**/*-thumb.webp');
+ await page.route('**/render-rules.json',r=>r.abort());await page.reload();await page.getByRole('button',{name:'选择淡彩速写',exact:true}).click();await page.fill('#subject','猫');await page.getByRole('button',{name:'预览提示词 →'}).click();assert.match(await page.locator('#formError').innerText(),/规则加载失败/);assert.equal(await page.inputValue('#subject'),'猫');await page.unroute('**/render-rules.json');
+ await page.goto('http://127.0.0.1:4321/');await page.locator('#cards .card').first().waitFor();
+ await page.locator('#cards img').first().evaluate(img=>img.decode());
+ await page.route('**/styles.json',route=>route.abort());await page.reload();await page.getByText('风格目录未加载',{exact:true}).waitFor();await page.unroute('**/styles.json');
+ assert.deepEqual(errors,[]);assert.equal(requests.filter(r=>r.method!=='GET'||r.url.includes('/api/')).length,0);
+ fs.writeFileSync('outputs/static/browser-report.json',JSON.stringify({passed:true,requests:requests.length,nonGet:0,pageErrors:errors,viewports:[1280,320,390,440],rootAndSubpath:true,downloadEqualsCLI:true},null,2));
+ console.log('Static browser checks passed');await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

@@ -1,0 +1,22 @@
+{
+  "layouts": {
+    "single": "突出一个主要场景，动作关系清楚。",
+    "explain": "在一张图内按三个步骤组织内容，不编造事实。",
+    "cover": "预留标题区域。"
+  },
+  "aspects": [
+    null,
+    "1:1",
+    "3:4",
+    "16:9"
+  ],
+  "colors": "(?:红|橙|黄|绿|青|蓝|紫|粉|黑|白|灰|棕|褐|金|银)(?:色|衣|裙|帽|伞)|\\b(?:red|orange|yellow|green|blue|purple|pink|black|white|grey|gray|brown)\\b",
+  "schema": "koi-stylekit.v0.2",
+  "style_choice": "配色选择：以本风格配色为准。主题中的物体与动作保留，其中的颜色要求可被风格配色替代。",
+  "subject_choice": "配色选择：保留主题明确指定的颜色；这是放宽配色的变体，不要求复现样图配色。",
+  "conflict": "检测到颜色词，可能与固定配色冲突；请选择遵循风格或保留主题颜色。词语检测不代表语义判断。",
+  "variant": "已放宽配色；此变体没有对应生图验证。",
+  "caption": "为独立标题预留干净区域；不绘制任何文字。",
+  "no_caption": "不绘制文字。",
+  "aspect_prefix": "画幅比例："
+}

@@ -4,11 +4,25 @@
 
 Preview illustration styles, choose a recipe, and reuse it with a new subject.
 
-A local illustration gallery, Python CLI, and agent skill sharing one prompt renderer. **Exports prompts; does not generate images.**
+A local illustration gallery, Python CLI, and agent skill sharing recipe data and rendering rules. **Exports prompts; does not generate images.**
 
 Machine-readable discovery: [LLM project summary](wireframes/llms.txt) · [crawler rules](wireframes/robots.txt). After deployment, replace the Sitemap placeholder in `robots.txt` with the production URL.
 
 [v0.2.0-alpha is available](https://github.com/koi-lee/koi-stylekit/releases/tag/v0.2.0-alpha). Documentation is available in Chinese and English. The gallery interface and exported style instructions are primarily Chinese; English documentation does not enable English prompt output.
+
+## Online experience and static deployment
+
+The static edition is implemented locally; no public gallery URL has been verified yet. Visitors can browse, enter a subject, resolve palette conflicts and export entirely in their browser. Themes are not uploaded. Five documentation languages do not imply a multilingual UI or prompt output.
+
+Build with Python 3.10+ and Pillow, then publish the entire `dist/` directory at a domain root or subpath (including GitHub Pages). No backend is needed at runtime.
+
+```sh
+python3 -m pip install -r requirements-build.txt
+python3 scripts/build_static.py
+python3 -m http.server 4321 --directory dist
+```
+
+The server command is for local testing, not an online experience link. See [handoff and verification](docs/static-web.md). Cross-runtime tests require Node.js 22+.
 
 ## Styles
 
@@ -82,7 +96,7 @@ The [paper series HTML](wireframes/cases/interview-cards/paper-series.html) cont
 
 ## Privacy and limitations
 
-- Subjects stay in browser and local renderer memory; the tool does not upload them or log their contents. Explicit exports save a file to your downloads.
+- Web subjects stay in browser memory; CLI subjects stay in local process memory; the tool does not upload them or log their contents. Explicit exports save a file to your downloads.
 - Remembering a style stores only its ID in the browser. The server listens on `127.0.0.1` and is not intended for public hosting.
 - The catalogue contains 308 recipes: 48 style families and 260 technique/composition variants, with category and family filters, numbered search, and pagination. Sample availability is shown on each card. The v0.2.0-alpha tag still contains four styles. Individual visual approval is not evidence of general consistency. Cover and three-step layouts have not completed visual validation.
 - No online image generation, English recipe output, reference-image input, MCP, paid features, or automatic social publishing.
@@ -93,7 +107,7 @@ The [paper series HTML](wireframes/cases/interview-cards/paper-series.html) cont
 
 Port in use: run `python3 scripts/serve.py --port 4318` and open that port instead. Restart the server if it stops, then retry the retained input.
 
-Page opens but export fails: start with `scripts/serve.py`. Opening HTML directly or running a plain `http.server` does not provide the renderer API.
+Use HTTP/HTTPS rather than opening HTML files directly. A plain static server supports the full browser flow. If clipboard access is unavailable, the prompt is selected for manual copying.
 
 ## Validation and contributing
 

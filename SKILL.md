@@ -22,4 +22,4 @@ python3 scripts/koi.py render --style duotone-print --subject '女孩给猫撑�
 
 JSON schema 为 koi-stylekit.v0.2。颜色词可能冲突时默认不生成提示词，退出码 2，status 为 needs_color_choice。向用户说明固定配色与主题颜色的取舍；已有明确选择时直接使用 `--color-policy style` 或 `--color-policy subject`。保留主题颜色是未验证变体。检测仅匹配部分颜色词，不能保证发现所有冲突。标题通过 `--caption` 独立导出，不加入绘图文字要求。
 
-网页以 `python3 scripts/serve.py` 启动，调用同一本地渲染器；不再使用普通静态 http.server 启动完整流程。
+网页可使用普通静态服务器运行，浏览器与 CLI 共用配方目录和 render-rules.json，跨运行时对照测试以 Python 渲染器为基准。Agent 继续使用本地 Python CLI；无需构建网页版。

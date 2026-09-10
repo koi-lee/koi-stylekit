@@ -5,10 +5,10 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-LAYOUTS = {"single": "突出一个主要场景，动作关系清楚。", "explain": "在一张图内按三个步骤组织内容，不编造事实。", "cover": "预留标题区域。"}
-ASPECTS = (None, "1:1", "3:4", "16:9")
-# Deliberately conservative lexical hints, not semantic colour understanding.
-COLORS = r"(?:红|橙|黄|绿|青|蓝|紫|粉|黑|白|灰|棕|褐|金|银)(?:色|衣|裙|帽|伞)|\b(?:red|orange|yellow|green|blue|purple|pink|black|white|grey|gray|brown)\b"
+RULES = json.loads((ROOT / "wireframes/render-rules.json").read_text(encoding="utf-8"))
+LAYOUTS = RULES["layouts"]
+ASPECTS = tuple(RULES["aspects"])
+COLORS = RULES["colors"]
 
 def catalogue():
     return json.loads((ROOT / "wireframes/styles.json").read_text(encoding="utf-8"))
@@ -35,18 +35,18 @@ def render(style, subject, purpose="single", aspect=None, caption=None, color_po
         recipe = style["subject_palette_recipe"]
     parts = [recipe.replace("{subject}", subject), LAYOUTS[purpose]]
     if limited and color_policy == "style":
-        parts.append("配色选择：以本风格配色为准。主题中的物体与动作保留，其中的颜色要求可被风格配色替代。")
+        parts.append(RULES["style_choice"])
     elif variant:
-        parts.append("配色选择：保留主题明确指定的颜色；这是放宽配色的变体，不要求复现样图配色。")
+        parts.append(RULES["subject_choice"])
     if aspect:
-        parts.append("画幅比例：" + aspect)
-    parts.append("为独立标题预留干净区域；不绘制任何文字。" if caption else "不绘制文字。")
+        parts.append(RULES["aspect_prefix"] + aspect)
+    parts.append(RULES["caption"] if caption else RULES["no_caption"])
     warnings = []
     if needs_choice:
-        warnings.append("检测到颜色词，可能与固定配色冲突；请选择遵循风格或保留主题颜色。词语检测不代表语义判断。")
+        warnings.append(RULES["conflict"])
     if variant:
-        warnings.append("已放宽配色；此变体没有对应生图验证。")
-    return {"schema": "koi-stylekit.v0.2", "style": {"id": style["id"], "name": style["name"], "version": style["version"], "source": style["source"]}, "brief": {"subject": subject, "purpose": purpose, "aspect": aspect, "caption": caption, "color_policy": color_policy}, "validation": style["validation"], "palette_variant": variant, "color_hints": hints, "warnings": warnings, "status": "needs_color_choice" if needs_choice else "ready", "prompt_zh": None if needs_choice else "\n\n".join(parts)}
+        warnings.append(RULES["variant"])
+    return {"schema": RULES["schema"], "style": {"id": style["id"], "name": style["name"], "version": style["version"], "source": style["source"]}, "brief": {"subject": subject, "purpose": purpose, "aspect": aspect, "caption": caption, "color_policy": color_policy}, "validation": style["validation"], "palette_variant": variant, "color_hints": hints, "warnings": warnings, "status": "needs_color_choice" if needs_choice else "ready", "prompt_zh": None if needs_choice else "\n\n".join(parts)}
 
 def render_request(data):
     if not isinstance(data, dict):

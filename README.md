@@ -20,6 +20,22 @@ A local illustration style gallery, Python CLI, and agent skill sharing one prom
 
 当前目录包含 **308 项配方，48 个风格家族与 260 个画法变体**。按媒介、家族或编号筛选；每项可预览样图、比较和导出。变体表示同一媒介下不同处理方式，样图不保证跨主题复现。
 
+## 在线体验与静态部署
+
+纯静态网页版已在本地实现，正式公网地址尚未核验。部署后的访客可直接浏览、填写主题、处理配色冲突、复制提示词与下载 JSON，无需 Python。网页界面和提示词仍以中文为主，五语文档不代表五语界面。
+
+构建端需要 Python 3.10+ 与 Pillow；部署产物不需要 Python、Node 或后端接口：
+
+```sh
+python3 -m pip install -r requirements-build.txt
+python3 scripts/build_static.py
+python3 -m http.server 4321 --directory dist
+```
+
+最后一条命令仅用于本地验证。将 `dist/` 内全部内容部署到域名根目录或任意子目录即可；GitHub Pages 应发布构建产物并保留 `.nojekyll`。详见 [静态版交接与验证](docs/static-web.md)。
+
+## 本地运行
+
 ## 五分钟开始
 
 需要 Python 3.10+，无需安装第三方依赖。
@@ -60,7 +76,7 @@ python3 scripts/koi.py render --style duotone-print --subject '绿色的书' --c
 
 默认配色检测是保守的颜色词匹配，可能误报或漏报。需要选择时，JSON 返回 `status: needs_color_choice`、`prompt_zh: null`，退出码为 2。文本模式会显示提示，不输出矛盾配方。其他输入错误也使用退出码 2。
 
-网页与 CLI 共用 `scripts/koi.py`，导出格式为 `koi-stylekit.v0.2`。旧 ID `minimal-line`、`ink-accent` 继续兼容，导出统一使用上表的新 ID。
+网页与 CLI 共用配方目录和 `render-rules.json`，以 `scripts/koi.py` 为行为基准并执行跨运行时对照测试，导出格式为 `koi-stylekit.v0.2`。旧 ID `minimal-line`、`ink-accent` 继续兼容，导出统一使用上表的新 ID。
 
 ## 在 Agent 中使用
 
@@ -72,7 +88,7 @@ python3 scripts/koi.py render --style duotone-print --subject '绿色的书' --c
 
 ## 数据与限制
 
-- 主题只在浏览器与本机渲染器内存中处理，不上传外部服务，不记入日志；主动导出会保存到用户下载文件。
+- 网页版主题只在浏览器内存中处理，不上传服务器；CLI 在本机处理；主动导出会保存到用户下载文件。
 - “记住风格”仅在浏览器保存风格 ID。服务监听 `127.0.0.1`，不应作为公网服务器部署。
 - 当前目录包含 308 项配方：48 个风格家族与 260 个画法变体，支持分类、家族筛选、编号搜索和分页；样图进度以页面标记为准；v0.2.0-alpha 标签仍为四种风格。单张样图认可不等于跨主题、跨模型稳定性验证。三步讲解与封面用途尚未完整生图验收。
 - 不包含在线生图、英文配方、参考图输入、MCP、付费功能或自动社交发布。
@@ -82,9 +98,11 @@ python3 scripts/koi.py render --style duotone-print --subject '绿色的书' --c
 
 端口占用：运行 `python3 scripts/serve.py --port 4318`，然后访问对应端口。服务停止后可重新执行命令；网页保留的输入可再次预览。
 
-能打开页面但不能导出：请用 `scripts/serve.py` 启动。直接打开 HTML 或用普通 `http.server` 不支持渲染接口。
+请通过 HTTP/HTTPS 访问，不要直接双击 HTML。普通静态服务器已支持完整导出流程。复制权限不可用时会选中文本供手动复制，JSON 下载仍可使用。
 
 ## 验证与贡献
+
+跨运行时对照测试另外需要 Node.js 22+；CLI 和网页使用者不需要 Node.js。
 
 ```sh
 python3 -m unittest discover -s tests -v
