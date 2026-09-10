@@ -1,0 +1,22 @@
+{
+  "schema": "koi-stylekit.v0.2",
+  "style": {
+    "id": "stained-glass",
+    "name": "彩色玻璃镶嵌",
+    "version": "0.1-candidate",
+    "source": "Koi StyleKit 原创配方；2026-09-10 差异化风格实验"
+  },
+  "brief": {
+    "subject": "一只猫坐在撑开的雨伞下",
+    "purpose": "single",
+    "aspect": "1:1",
+    "caption": null,
+    "color_policy": "style"
+  },
+  "validation": "候选配方；等待样图视觉验收，跨主题与跨模型未验证",
+  "palette_variant": false,
+  "color_hints": [],
+  "warnings": [],
+  "status": "ready",
+  "prompt_zh": "单张独立视觉作品。主题：一只猫坐在撑开的雨伞下。\n半透明彩色玻璃切片由深色铅条连接，每个片区为简明大色块，蓝绿与琥珀色为主，背后柔光透出，玻璃微纹理和投射彩光，主体剪影清楚。\n只保留主题必要主体，留充足边距，不添加品牌、水印、标志或无关道具。\n\n突出一个主要场景，动作关系清楚。\n\n画幅比例：1:1\n\n不绘制文字。"
+}

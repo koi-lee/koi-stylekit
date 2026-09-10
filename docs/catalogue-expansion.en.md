@@ -21,3 +21,13 @@ Automated checks cover unique identifiers, family relationships, supported purpo
 ## Verification on 2026-09-10
 
 All 300 entries have samples: 4 existing images and 296 newly generated candidates. Ten automated tests passed, including 1,264 export combinations, saved prompt provenance, complete PNG chunks and distinct file hashes. All 596 image and input JSON HTTP responses matched local files byte for byte. The browser showed 300 samples and zero pending images; page 13 and entry 300 details were exercised. These are functional checks, not approval of every visual result.
+
+## Curation and distinct styles, 2026-09-10
+
+The catalogue now includes 308 recipes in 48 families. Eight original candidate styles have generated samples: paper lightbox, pop-up book, photo doodle, zine collage, duotone dithering, character texture, stained glass and bubble mosaic. Exact built-in imagegen inputs are stored alongside the PNG files. Character texture is a raster approximation, not executable or copyable ASCII.
+
+The default view shows families. Family buttons reveal variants; search can find variants directly. Twelve curated starting points, a new-style view, all recipes and local favorites are available. Favorites store IDs only. Cross-subject samples and application mockups follow visual selection; this iteration does not establish cross-subject consistency or publication.
+
+## Application checks and mobile layout
+
+Nine additional candidate samples cover people, headphones and knowledge organization for paper lightbox, pop-up book and bubble mosaic. See `wireframes/cases/style-applications/` for original PNGs, exact input JSON and HTML cover/card mockups. Pop-up people became real people holding a book; lightbox added scenery; mosaic headphones gained 3D shading. These are documented failures, not cross-subject approval. Mobile layouts were exercised at 390×844 and 320×568 in a browser viewport, not on physical devices. Advanced controls collapse on small screens; desktop retains the full sticky region.

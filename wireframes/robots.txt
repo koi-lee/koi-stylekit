@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# 部署到正式域名后，请在此文件补充 Sitemap 的绝对 URL。

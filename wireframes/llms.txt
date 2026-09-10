@@ -1,0 +1,23 @@
+# Koi StyleKit
+
+Koi StyleKit is an open-source illustration style catalogue and local prompt tool.
+It contains 300+ reusable style recipes grouped into 48 style families.
+
+## What it does
+
+- Browse, search, filter, compare, favorite, and paginate illustration styles.
+- Export Chinese prompt recipes and a JSON style package.
+- Run locally with Python; the tool does not call an image-generation API.
+
+## Canonical project files
+
+- README.md: Chinese overview, setup, CLI usage, limitations, attribution.
+- README.en.md: English overview and setup.
+- SKILL.md: instructions for using the catalogue as an agent skill.
+- wireframes/styles.json: structured catalogue data.
+- scripts/koi.py: shared prompt renderer and CLI.
+
+## Trust and limitations
+
+Sample images are candidates and do not guarantee cross-topic or cross-model reproduction.
+The project does not upload themes, provide online image generation, or include an MCP server.

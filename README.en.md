@@ -6,11 +6,13 @@ Preview illustration styles, choose a recipe, and reuse it with a new subject.
 
 A local illustration gallery, Python CLI, and agent skill sharing one prompt renderer. **Exports prompts; does not generate images.**
 
+Machine-readable discovery: [LLM project summary](wireframes/llms.txt) · [crawler rules](wireframes/robots.txt). After deployment, replace the Sitemap placeholder in `robots.txt` with the production URL.
+
 [v0.2.0-alpha is available](https://github.com/koi-lee/koi-stylekit/releases/tag/v0.2.0-alpha). Documentation is available in Chinese and English. The gallery interface and exported style instructions are primarily Chinese; English documentation does not enable English prompt output.
 
 ## Styles
 
-The catalogue contains **300 recipes: 40 style families and 260 technique/composition variants**. Filter by medium, family, or number, then preview, compare, and export. Variants are treatments within a family; samples do not guarantee repeatability. See [catalogue scope and sample evidence](docs/catalogue-expansion.en.md).
+The catalogue contains **308 recipes: 48 style families and 260 technique/composition variants**. Filter by medium, family, or number, then preview, compare, and export. Variants are treatments within a family; samples do not guarantee repeatability. See [catalogue scope and sample evidence](docs/catalogue-expansion.en.md).
 
 | Emotional sketch | Colored pencil diary | Duotone print | Layered paper |
 | --- | --- | --- | --- |
@@ -82,7 +84,7 @@ The [paper series HTML](wireframes/cases/interview-cards/paper-series.html) cont
 
 - Subjects stay in browser and local renderer memory; the tool does not upload them or log their contents. Explicit exports save a file to your downloads.
 - Remembering a style stores only its ID in the browser. The server listens on `127.0.0.1` and is not intended for public hosting.
-- The catalogue contains 300 recipes: 40 style families and 260 technique/composition variants, with category and family filters, numbered search, and pagination. Sample availability is shown on each card. The v0.2.0-alpha tag still contains four styles. Individual visual approval is not evidence of general consistency. Cover and three-step layouts have not completed visual validation.
+- The catalogue contains 308 recipes: 48 style families and 260 technique/composition variants, with category and family filters, numbered search, and pagination. Sample availability is shown on each card. The v0.2.0-alpha tag still contains four styles. Individual visual approval is not evidence of general consistency. Cover and three-step layouts have not completed visual validation.
 - No online image generation, English recipe output, reference-image input, MCP, paid features, or automatic social publishing.
 - Main gallery samples are local files. Research comparison pages may link to external references.
 - The interview-card examples have not been integrated into that product or evaluated for learning effectiveness.

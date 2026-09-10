@@ -11,6 +11,8 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_POST(self):
         allowed = {f"127.0.0.1:{self.server.server_port}", f"localhost:{self.server.server_port}"}
+        if self.server.server_address[0] == "0.0.0.0":
+            allowed.add(self.headers.get("Host", ""))
         if self.headers.get("Host") not in allowed or self.headers.get("Origin") not in {None, *('http://' + h for h in allowed)}:
             self.send_error(403)
             return
@@ -36,13 +38,14 @@ class Handler(SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
-def make_server(port=4317):
-    return ThreadingHTTPServer(("127.0.0.1", port), partial(Handler, directory=str(ROOT / "wireframes")))
+def make_server(port=4317, host="127.0.0.1"):
+    return ThreadingHTTPServer((host, port), partial(Handler, directory=str(ROOT / "wireframes")))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--port", type=int, default=4317)
+    parser.add_argument("--host", default="127.0.0.1", help="监听地址；局域网真机测试使用 0.0.0.0")
     args = parser.parse_args()
-    with make_server(args.port) as server:
-        print(f"Koi StyleKit: http://127.0.0.1:{server.server_port}/", flush=True)
+    with make_server(args.port, args.host) as server:
+        print(f"Koi StyleKit: http://{args.host}:{server.server_port}/", flush=True)
         server.serve_forever()

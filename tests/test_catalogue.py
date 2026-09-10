@@ -13,8 +13,8 @@ class CatalogueTests(unittest.TestCase):
         styles = catalogue()
         ids = [s['id'] for s in styles]
         self.assertEqual(len(ids), len(set(ids)))
-        self.assertEqual(len(styles), 300)
-        self.assertEqual(len({s['catalogue_number'] for s in styles}), 300)
+        self.assertEqual(len(styles), 308)
+        self.assertEqual(len({s['catalogue_number'] for s in styles}), 308)
         by_id = {s['id']: s for s in styles}
         for s in styles:
             self.assertIn(s['family_id'], by_id)
