@@ -1,0 +1,22 @@
+{
+  "schema": "koi-stylekit.v0.2",
+  "style": {
+    "id": "botanical-plate--isolated",
+    "name": "植物图谱 · 孤立标本",
+    "version": "0.1-draft",
+    "source": "Koi StyleKit 自行撰写的通用媒介配方；未复制上游配方或图片；Koi StyleKit 增补画法变体"
+  },
+  "brief": {
+    "subject": "一只猫在雨中撑着伞，主体完整，背景简洁。",
+    "purpose": "single",
+    "aspect": "1:1",
+    "caption": null,
+    "color_policy": "style"
+  },
+  "validation": "画法变体，尚未生图验证",
+  "palette_variant": false,
+  "color_hints": [],
+  "warnings": [],
+  "status": "ready",
+  "prompt_zh": "植物图谱插画。主题：一只猫在雨中撑着伞，主体完整，背景简洁。\n媒介与画法：准确观察叶脉与枝条结构，以细线和轻染呈现主体，孤立在浅纸底。\n视觉重点：精细形态与疏朗布局。主体、动作与必要道具优先，背景简洁，不自行添加无关角色。\n限制：不要标注、编号与虚构科学结论。独立完整插画，不绘制文字、数字、水印或标志。\n在上述媒介与配色限制内，本变体的处理方式：主体与必要道具孤立呈现，无环境铺陈，不增加植物装饰。\n\n突出一个主要场景，动作关系清楚。\n\n画幅比例：1:1\n\n不绘制文字。"
+}

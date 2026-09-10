@@ -1,0 +1,22 @@
+{
+  "schema": "koi-stylekit.v0.2",
+  "style": {
+    "id": "pixel-art--narrative",
+    "name": "像素插画 · 叙事小景",
+    "version": "0.1-draft",
+    "source": "Koi StyleKit 自行撰写的通用媒介配方；未复制上游配方或图片；Koi StyleKit 增补画法变体"
+  },
+  "brief": {
+    "subject": "一只猫在雨中撑着伞，主体完整，背景简洁。",
+    "purpose": "single",
+    "aspect": "1:1",
+    "caption": null,
+    "color_policy": "style"
+  },
+  "validation": "画法变体，尚未生图验证",
+  "palette_variant": false,
+  "color_hints": [],
+  "warnings": [],
+  "status": "ready",
+  "prompt_zh": "像素插画插画。主题：一只猫在雨中撑着伞，主体完整，背景简洁。\n媒介与画法：低分辨率像素格构造主体，轮廓阶梯明确，有限色阶塑造体积。\n视觉重点：离散像素与有限色阶。主体、动作与必要道具优先，背景简洁，不自行添加无关角色。\n限制：避免抗锯齿、模糊与光滑渐变。独立完整插画，不绘制文字、数字、水印或标志。\n在上述媒介与配色限制内，本变体的处理方式：用主体动作和必要道具讲清一个瞬间，控制环境细节。\n\n突出一个主要场景，动作关系清楚。\n\n画幅比例：1:1\n\n不绘制文字。"
+}

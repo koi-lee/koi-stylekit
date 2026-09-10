@@ -1,0 +1,22 @@
+{
+  "schema": "koi-stylekit.v0.2",
+  "style": {
+    "id": "screenprint--fine",
+    "name": "丝网印刷 · 细纹理",
+    "version": "0.1-draft",
+    "source": "Koi StyleKit 自行撰写的通用媒介配方；未复制上游配方或图片；Koi StyleKit 增补画法变体"
+  },
+  "brief": {
+    "subject": "一只猫在雨中撑着伞，主体完整，背景简洁。",
+    "purpose": "single",
+    "aspect": "1:1",
+    "caption": null,
+    "color_policy": "style"
+  },
+  "validation": "画法变体，尚未生图验证",
+  "palette_variant": false,
+  "color_hints": [],
+  "warnings": [],
+  "status": "ready",
+  "prompt_zh": "丝网印刷插画。主题：一只猫在雨中撑着伞，主体完整，背景简洁。\n媒介与画法：少数高对比实色层叠印，交叠区自然产生第三色，轻微印墨颗粒。\n视觉重点：实色印墨与清晰叠印。主体、动作与必要道具优先，背景简洁，不自行添加无关角色。\n限制：避免立体光泽与连续渐变。独立完整插画，不绘制文字、数字、水印或标志。\n在上述媒介与配色限制内，本变体的处理方式：在印刷媒介范围内细化主体纹理，背景简化，避免满幅噪点。\n\n突出一个主要场景，动作关系清楚。\n\n画幅比例：1:1\n\n不绘制文字。"
+}

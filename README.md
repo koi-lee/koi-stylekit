@@ -1,15 +1,22 @@
 # Koi StyleKit
 
+**简体中文** | [English](README.en.md)
+
 先看插画效果，再选画风、填主题，把配方留给下一次创作。
 
 A local illustration style gallery, Python CLI, and agent skill sharing one prompt renderer. **Exports prompts; does not generate images.**
 
-当前为 Alpha。源代码已公开；下面是 AI 生成的候选样图，不能保证新主题或其他模型得到相同效果。
+[v0.2.0-alpha 已发布](https://github.com/koi-lee/koi-stylekit/releases/tag/v0.2.0-alpha)。源代码已公开；下面是 AI 生成的候选样图，不能保证新主题或其他模型得到相同效果。
 
 | 淡彩速写 | 双色孔版 | 彩铅日记 |
 | --- | --- | --- |
 | ![淡彩速写](wireframes/assets/style-10-rain-v1.png) | ![双色孔版](wireframes/assets/yang-167-v1.png) | ![彩铅日记](wireframes/assets/yang-169-v1.png) |
 | `emotional-sketch` | `duotone-print` | `colored-pencil-diary` |
+
+文档提供中英文版本；当前网页界面与导出的风格配方仍以中文为主。
+
+
+当前目录包含 **300 项配方，40 个风格家族与 260 个画法变体**。按媒介、家族或编号筛选；每项可预览样图、比较和导出。变体表示同一媒介下不同处理方式，样图不保证跨主题复现。
 
 ## 五分钟开始
 
@@ -59,13 +66,13 @@ python3 scripts/koi.py render --style duotone-print --subject '绿色的书' --c
 
 > 读取这个仓库的 SKILL.md，用彩铅日记风格生成“猫在雨中撑伞”的提示词。
 
-安装为宿主技能时须保留**完整仓库**，不能只复制 SKILL.md；自动发现目录按宿主说明设置。本项目不修改全局配置。文件格式已检查，宿主自动发现和模型行为尚未全面验证。
+安装为宿主技能时须保留**完整仓库**，不能只复制 SKILL.md；自动发现目录按宿主说明设置。本项目不修改全局配置。已在本机 Codex 中验证安装与技能发现；其他宿主及模型行为尚未全面验证。
 
 ## 数据与限制
 
 - 主题只在浏览器与本机渲染器内存中处理，不上传外部服务，不记入日志；主动导出会保存到用户下载文件。
 - “记住风格”仅在浏览器保存风格 ID。服务监听 `127.0.0.1`，不应作为公网服务器部署。
-- 四种候选风格；单张样图认可不等于跨主题、跨模型稳定性验证。三步讲解与封面用途尚未完整生图验收。
+- 当前目录包含 300 项配方：40 个风格家族与 260 个画法变体，支持分类、家族筛选、编号搜索和分页；样图进度以页面标记为准；v0.2.0-alpha 标签仍为四种风格。单张样图认可不等于跨主题、跨模型稳定性验证。三步讲解与封面用途尚未完整生图验收。
 - 不包含在线生图、英文配方、参考图输入、MCP、付费功能或自动社交发布。
 - 主画廊全部使用本地样图；研究对照页含外部参考图链接。
 
@@ -81,7 +88,7 @@ python3 scripts/koi.py render --style duotone-print --subject '绿色的书' --c
 python3 -m unittest discover -s tests -v
 ```
 
-本机隔离目录安装与 CLI/HTTP 一致性已验证。已公开提交 `718e17c` 的 [CI 六个任务](https://github.com/koi-lee/koi-stylekit/actions/runs/34353689951)通过（Windows/macOS/Ubuntu × Python 3.10/3.14）；当前新增纸雕改动仅完成本地验证，远程 CI 待推送后运行。
+本机隔离目录安装与 CLI/HTTP 一致性已验证。发布提交 `bbc76de` 的 [CI 六个任务](https://github.com/koi-lee/koi-stylekit/actions/runs/34359647023)通过（Windows/macOS/Ubuntu × Python 3.10/3.14）。
 
 [贡献说明](CONTRIBUTING.md) · [当前状态与路线](docs/项目流程图.md) · [验收记录](docs/验收记录.md) · [画风验证](docs/画风验证.md)
 

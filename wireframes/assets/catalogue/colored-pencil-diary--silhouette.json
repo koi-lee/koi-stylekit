@@ -1,0 +1,22 @@
+{
+  "schema": "koi-stylekit.v0.2",
+  "style": {
+    "id": "colored-pencil-diary--silhouette",
+    "name": "彩铅日记 · 轮廓叙事",
+    "version": "0.1-draft",
+    "source": "参考 yang0 #169 的媒介分类；本配方自行撰写；Koi StyleKit 增补画法变体"
+  },
+  "brief": {
+    "subject": "一只猫在雨中撑着伞，主体完整，背景简洁。",
+    "purpose": "single",
+    "aspect": "1:1",
+    "caption": null,
+    "color_policy": "style"
+  },
+  "validation": "画法变体，尚未生图验证",
+  "palette_variant": false,
+  "color_hints": [],
+  "warnings": [],
+  "status": "ready",
+  "prompt_zh": "Colored Pencil Diary. 彩铅日记。主题：一只猫在雨中撑着伞，主体完整，背景简洁。\n铅笔轮廓、轻柔彩铅、纸纹、生活记录。让纸张纹理自然透过轻柔彩铅笔触，保留可见的铅笔起稿轮廓和日常随手记录的气息。不要文字。单张完整插画。\n在上述媒介与配色限制内，本变体的处理方式：突出完整剪影与动作，内部笔触简化，明暗对比主要发生在轮廓内外。\n\n突出一个主要场景，动作关系清楚。\n\n画幅比例：1:1\n\n不绘制文字。"
+}
