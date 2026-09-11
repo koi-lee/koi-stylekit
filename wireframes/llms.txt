@@ -1,23 +1,23 @@
 # Koi StyleKit
 
-Koi StyleKit is an open-source illustration style catalogue and local prompt tool.
-It contains 300+ reusable style recipes grouped into 48 style families.
+Open-source illustration prompt tool with 308 recipes: 48 families and 260 variants.
+开源插画提示词工具：308 项配方，包含 48 个家族与 260 个变体。
 
-## What it does
+## Uses and workflow
+Article/social covers, conceptual product/website illustrations, and course illustrations.
+Browse samples → select a style → enter a subject and purpose → resolve palette conflicts → export a Chinese prompt or JSON → use your own image-generation tool.
+The static gallery runs in a browser without installation. Python CLI and Agent Skill are also available.
 
-- Browse, search, filter, compare, favorite, and paginate illustration styles.
-- Export Chinese prompt recipes and a JSON style package.
-- Run as a static website without a backend; Python CLI and Agent Skill remain available. No image-generation API is called.
+## Readable resources
+- [Gallery and usage questions](./index.html)
+- [Catalogue data](./styles.json)
+- [Paper illustration examples and prompts](./cases/style-applications/paper-kit.html)
+- [Source and Chinese documentation](https://github.com/koi-lee/koi-stylekit)
+- [English documentation](https://github.com/koi-lee/koi-stylekit/blob/main/README.en.md)
+- [Agent Skill](https://github.com/koi-lee/koi-stylekit/blob/main/SKILL.md)
 
-## Canonical project files
-
-- README.md: Chinese overview, setup, CLI usage, limitations, attribution.
-- README.en.md: English overview and setup.
-- SKILL.md: instructions for using the catalogue as an agent skill.
-- wireframes/styles.json: structured catalogue data.
-- scripts/koi.py: shared prompt renderer and CLI.
-
-## Trust and limitations
-
-Sample images are candidates and do not guarantee cross-topic or cross-model reproduction.
-The project does not upload themes, provide online image generation, or include an MCP server.
+## Boundaries
+No automatic image generation, AI API, account, or telemetry. Subjects stay in browser memory; favorites are local to that browser and origin.
+Samples are candidates, not proof of repeatable cross-topic/model results. Consistent characters and strict brand colors are not guaranteed.
+Chinese interface and prompt output. Documentation in Chinese, English, Japanese, Korean, and Spanish does not mean a five-language UI.
+This file is a supplementary resource index, not a search-indexing or AI-citation guarantee.
