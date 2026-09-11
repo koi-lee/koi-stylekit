@@ -3,7 +3,8 @@ const {chromium}=require('playwright');const assert=require('node:assert/strict'
 (async()=>{const b=await chromium.launch({channel:'chrome'});for(const width of [1280,390]){const p=await b.newPage({viewport:{width,height:900}});const errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto(process.env.GALLERY_URL||'http://127.0.0.1:4339/');const card=()=>p.locator('#cards .card').first();await card().waitFor();assert.equal(await p.locator('#pageSizeBottom').count(),0);
 for(const target of ['img','h2']){await card().locator(target).click();await p.locator('#detail[open]').waitFor();await p.click('#closeDetail');}
 await card().click({position:{x:5,y:5}});await p.locator('#detail[open]').waitFor();await p.keyboard.press('Escape');
-await card().getByRole('button',{name:'查看详情',exact:true}).focus();await p.keyboard.press('Enter');await p.locator('#detail[open]').waitFor();await p.keyboard.press('Escape');
+await card().getByRole('button',{name:/^查看.+详情$/}).focus();await p.keyboard.press('Enter');await p.locator('#detail[open]').waitFor();await p.keyboard.press('Escape');
+await card().locator('.card-title').press('Space');await p.locator('#detail[open]').waitFor();await p.keyboard.press('Escape');assert(await card().locator('.card-title').evaluate(e=>e===document.activeElement));
 for(const target of ['label','.badge']){await card().locator(target).click();assert.equal(await p.locator('#detail[open]').count(),0);}
 await card().getByRole('button',{name:/^收藏/}).click();assert.equal(await p.locator('#detail[open]').count(),0);
 await card().getByRole('button',{name:/查看家族/}).click();assert.equal(await p.locator('#detail[open]').count(),0);
