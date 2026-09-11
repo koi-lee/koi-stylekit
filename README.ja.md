@@ -11,6 +11,12 @@ Koi StyleKit は、手描きイラストのスタイルを探し、再利用で�
 - 中国語プロンプトと JSON スタイルパッケージをエクスポート
 - Python CLI またはローカル Web ギャラリーで利用
 
+## オンラインで試す
+
+[ギャラリーを開く](https://www.starshoreai.com/koi-stylekit/gallery/)。ダウンロードや Python は不要です。308 レシピ（48 ファミリーと 260 バリエーション）から選び、プロンプトをエクスポートできます。画像は自動生成しません。テーマはサーバーに送信されません。ドキュメントは5言語ですが、画面とプロンプトは主に中国語です。
+
+## ローカルで実行
+
 ```sh
 git clone https://github.com/koi-lee/koi-stylekit.git
 cd koi-stylekit

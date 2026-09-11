@@ -11,6 +11,12 @@ Koi StyleKit es una herramienta local y de código abierto para explorar estilos
 - Exportar prompts en chino y paquetes de estilo JSON.
 - Usar una galería web local o la CLI de Python.
 
+## Probar en línea
+
+[Abrir la galería](https://www.starshoreai.com/koi-stylekit/gallery/). No necesitas descargar el repositorio ni instalar Python. Explora 308 recetas: 48 familias y 260 variantes. Exporta prompts; no genera imágenes ni envía el tema al servidor. La documentación está en cinco idiomas; la interfaz y los prompts siguen siendo principalmente en chino.
+
+## Ejecutar localmente
+
 ```sh
 git clone https://github.com/koi-lee/koi-stylekit.git
 cd koi-stylekit

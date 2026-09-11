@@ -4,15 +4,15 @@
 
 Preview illustration styles, choose a recipe, and reuse it with a new subject.
 
-A local illustration gallery, Python CLI, and agent skill sharing recipe data and rendering rules. **Exports prompts; does not generate images.**
+A browser-based illustration gallery, Python CLI, and agent skill sharing recipe data and rendering rules. **Exports prompts; does not generate images.**
 
 Machine-readable discovery: [LLM project summary](wireframes/llms.txt) · [crawler rules](wireframes/robots.txt). After deployment, replace the Sitemap placeholder in `robots.txt` with the production URL.
 
-[v0.2.0-alpha is available](https://github.com/koi-lee/koi-stylekit/releases/tag/v0.2.0-alpha). Documentation is available in Chinese and English. The gallery interface and exported style instructions are primarily Chinese; English documentation does not enable English prompt output.
+[v0.2.0-alpha is available](https://github.com/koi-lee/koi-stylekit/releases/tag/v0.2.0-alpha). Documentation is available in Chinese, English, Japanese, Korean, and Spanish. The gallery interface and exported style instructions are primarily Chinese; English documentation does not enable English prompt output.
 
 ## Online experience and static deployment
 
-The static edition is implemented locally; no public gallery URL has been verified yet. Visitors can browse, enter a subject, resolve palette conflicts and export entirely in their browser. Themes are not uploaded. Five documentation languages do not imply a multilingual UI or prompt output.
+[Open the live gallery](https://www.starshoreai.com/koi-stylekit/gallery/). The public HTTPS gallery has passed browser checks; no repository download or Python installation is needed. Visitors can browse, enter a subject, resolve palette conflicts and export entirely in their browser. Themes are not uploaded. Five documentation languages do not imply a multilingual UI or prompt output.
 
 Build with Python 3.10+ and Pillow, then publish the entire `dist/` directory at a domain root or subpath (including GitHub Pages). No backend is needed at runtime.
 

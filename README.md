@@ -22,7 +22,7 @@ A local illustration style gallery, Python CLI, and agent skill sharing one prom
 
 ## 在线体验与静态部署
 
-纯静态网页版已在本地实现，正式公网地址尚未核验。部署后的访客可直接浏览、填写主题、处理配色冲突、复制提示词与下载 JSON，无需 Python。网页界面和提示词仍以中文为主，五语文档不代表五语界面。
+[打开在线画廊](https://www.starshoreai.com/koi-stylekit/gallery/)。正式 HTTPS 入口已通过浏览器验证，访客可直接浏览、填写主题、处理配色冲突、复制提示词与下载 JSON，无需下载仓库或安装 Python。网页界面和提示词仍以中文为主，五语文档不代表五语界面。
 
 构建端需要 Python 3.10+ 与 Pillow；部署产物不需要 Python、Node 或后端接口：
 

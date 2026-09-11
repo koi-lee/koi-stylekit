@@ -11,6 +11,12 @@ Koi StyleKit은 손그림 일러스트 스타일을 탐색하고 재사용 가�
 - 중국어 프롬프트와 JSON 스타일 패키지 내보내기
 - Python CLI 또는 로컬 웹 갤러리로 사용
 
+## 온라인 체험
+
+[갤러리 열기](https://www.starshoreai.com/koi-stylekit/gallery/). 다운로드나 Python 설치 없이 308개 레시피(48개 패밀리와 260개 변형)를 탐색하고 프롬프트를 내보낼 수 있습니다. 이미지를 자동 생성하지 않으며 주제는 서버에 전송되지 않습니다. 문서는 5개 언어로 제공되지만 UI와 프롬프트는 주로 중국어입니다.
+
+## 로컬 실행
+
 ```sh
 git clone https://github.com/koi-lee/koi-stylekit.git
 cd koi-stylekit
