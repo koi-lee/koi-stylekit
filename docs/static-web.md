@@ -57,3 +57,13 @@ python3 -m unittest discover -s tests -v
 重新构建完整 dist/ 后由主站沿现有流程同步，新增路径为 cases/style-applications/paper-kit.html，入口位于实际用途案例页。页面包含天气、书店、完整人物、独立耳机四个案例及原始 JSON；人物和耳机方向获用户认可，配色偏差、重复生成与跨模型限制继续保留。原始 PNG 留在源码，构建产物使用 WebP。
 
 同步时同时检查画廊 og:description 的准确配方数量文案。不要仅复制 HTML：四张 WebP 和四份 JSON 也是必需资源。当前完整产物 67,603,710 字节；尚未在主站部署本增量。
+
+## 纸雕案例专项回归
+
+构建并用普通静态服务器运行 dist 后，在已安装 Playwright 和 Chrome 的环境执行：
+
+```sh
+GALLERY_URL=http://127.0.0.1:4335/ node scripts/verify_paper.cjs
+```
+
+GALLERY_URL 为画廊根入口，须带尾斜杠，也可使用子路径；BROWSER_CHANNEL 默认 chrome。脚本使用隔离浏览器，覆盖 1280/320/390/440px 的四案例复制成功提示、JSON 内容与显示提示词相等、拒绝复制时手动选择回退、真实滚动图片加载、无溢出与 pageerror。截图输出至忽略目录 outputs/paper-check/。不进行账号或服务器写操作，不代表真机验证。
