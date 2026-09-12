@@ -66,15 +66,58 @@ select:disabled{opacity:.6}
 .detail-image{position:relative;margin:0}.detail-image img{display:block;width:100%;height:auto;max-height:420px;object-fit:contain}.detail-image-error{position:absolute;inset:0;display:grid;place-items:center;margin:0;padding:16px;background:#f5f5f3;color:#666;text-align:center}
 
 #detail{max-width:880px}#detailBody{padding:20px 24px 28px;scroll-padding-bottom:28px}.detail-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:28px;align-items:start}.detail-media,.detail-info{min-width:0}.detail-image img{max-height:min(360px,45dvh)}.detail-input{display:inline-block;margin-top:12px;font-size:13px;overflow-wrap:anywhere}.detail-summary{font-size:17px;font-weight:600;line-height:1.6;margin:0 0 10px}.detail-medium{font-size:14px;color:#555;margin:0 0 12px}.detail-uses{list-style:none;display:flex;flex-wrap:wrap;gap:6px;margin:0 0 20px;padding:0}.detail-uses li{padding:4px 8px;background:#f1f1ef;border-radius:4px;font-size:12px;color:#444}.detail-facts{margin:0}.detail-facts>div{margin-top:14px}.detail-facts dt{font-size:12px;color:#626262;margin-bottom:3px}.detail-facts dd{margin:0;font-size:14px;line-height:1.65;overflow-wrap:anywhere}.detail-facts .detail-secondary dd{font-size:13px;color:#555}.detail-facts .detail-secondary:first-of-type{border-top:1px solid #eee;padding-top:14px}@media(max-width:700px){.detail-layout{grid-template-columns:minmax(0,1fr);gap:18px}#detailBody{padding:16px 20px 24px}.detail-image img{max-height:min(240px,32dvh)}.detail-summary{font-size:16px}.detail-uses{margin-bottom:16px}}
+
+/* Small screens keep two filter rows and compact card rhythm, without cropping art. */
+@media(max-width:760px),(max-height:500px){
+.gallery-top[data-expanded="false"] .notice,.gallery-top[data-expanded="false"] .steps,.gallery-top[data-expanded="false"] #galleryTitle,.gallery-top[data-expanded="false"] #galleryControls>p,.gallery-top[data-expanded="false"] #advancedFilters{display:none}
+.gallery-top{padding:6px 0 8px}
+.gallery-filters .toolbar:first-child{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) 56px;gap:8px}
+.gallery-filters .toolbar:first-child #search{grid-column:1/-1;grid-row:1;width:100%;min-width:0;font-size:1rem}
+.gallery-filters .toolbar:first-child #browseMode{grid-column:1;grid-row:2;width:100%;min-width:0}
+.gallery-filters .toolbar:first-child #filter{grid-column:2;grid-row:2;width:100%;min-width:0}
+#mobileFilters{display:block;grid-column:3;grid-row:2;width:56px;min-height:44px;margin:0;padding:8px 4px;text-align:center;font-size:14px}
+.gallery-filters input,.gallery-filters select{min-height:44px}
+}
+@media(max-width:760px),(max-height:500px){
+html{scroll-padding-top:170px}
+#cards .card{padding:16px}
+#cards .card>img{height:clamp(148px,24dvh,180px)!important}
+.card .badge{margin-top:10px}
+.card h2.section{margin:10px 0 4px}
+.card p{margin:0 0 10px;min-height:0}
+.card>small{display:block;line-height:1.5}
+.card .actions.section{margin-top:10px;min-height:44px}
+.card>.primary.section{margin-top:10px}
+.card .card-secondary{margin-top:10px;gap:8px}
+#detail .detail-header{padding:10px 16px}
+#detailBody{padding:14px 16px 24px}
+.detail-layout{gap:14px}
+.detail-image img{max-height:min(200px,26dvh)}
+.detail-uses{margin-bottom:12px}
+.detail-facts>div{margin-top:12px}
+#detail .detail-footer{padding:10px 16px}
+}
+@media(min-width:600px) and (max-height:500px){#cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-height:500px){
+header{position:relative}
+.gallery-top{position:relative;top:0;max-height:none;overflow:visible}
+html{scroll-padding-top:12px}
+#detail{max-height:calc(100dvh - 16px)}
+#detail .detail-header{padding:8px 16px}
+#detailBody{padding:12px 16px 24px}
+#detail .detail-footer{padding:8px 16px}
+.detail-image img{max-height:180px}
+}
+.detail-media .detail-uses{justify-content:center;margin:14px 0 0;text-align:center}.detail-media .detail-input{display:block;text-align:center}.detail-info{text-align:left}
 </style>
 <header><strong>Koi StyleKit</strong><small>Alpha · 插画风格工具<br>导出提示词 · 不调用 AI</small></header>
 <main>
 <div class="gallery-top" data-expanded="false">
 <div class="notice"><span id="catalogueSummary">正在加载风格目录…</span> 样图与未生图配方分开标记，不保证跨主题效果。</div>
 <ol class="steps" aria-label="制作步骤"><li id="s1" aria-current="step">01 选择风格</li><li id="s2">02 描述内容</li><li id="s3">03 预览与导出</li></ol>
-<div id="galleryControls"><button id="mobileFilters" class="mobile-only" aria-expanded="false" aria-controls="advancedFilters">展开说明与更多筛选</button>
+<div id="galleryControls">
 <h1 id="galleryTitle" tabindex="-1">先选一种适合这次内容的画风</h1><p class="muted">看用途，比较差异。选定后可以保存下来，用在下一个主题。 <a href="cases/style-applications/">查看实际用途对照 →</a></p>
-<div id="filterAnchor" aria-hidden="true"></div><div class="gallery-filters" role="region" aria-label="风格搜索与筛选"><div class="toolbar"><select id="browseMode" aria-label="浏览范围"><option value="families">风格家族</option><option value="featured">精选起点</option><option value="new">新风格实验</option><option value="favorites">我的收藏</option><option value="all">全部配方</option></select><input id="search" aria-label="搜索风格" placeholder="搜索风格、特点或用途"><select id="filter" aria-label="按用途筛选"><option value="all">所有用途</option><option value="explain">三步知识讲解</option><option value="single">单主体配图</option><option value="cover">封面留字区</option></select></div>
+<div id="filterAnchor" aria-hidden="true"></div><div class="gallery-filters" role="region" aria-label="风格搜索与筛选"><div class="toolbar"><select id="browseMode" aria-label="浏览范围"><option value="families">风格家族</option><option value="featured">精选起点</option><option value="new">新风格实验</option><option value="favorites">我的收藏</option><option value="all">全部配方</option></select><input id="search" aria-label="搜索风格" placeholder="搜索风格、特点或用途"><select id="filter" aria-label="按用途筛选"><option value="all">所有用途</option><option value="explain">三步知识讲解</option><option value="single">单主体配图</option><option value="cover">封面留字区</option></select><button id="mobileFilters" class="mobile-only" aria-expanded="false" aria-controls="advancedFilters" aria-label="展开说明与更多筛选">筛选</button></div>
 <div class="toolbar" id="advancedFilters"><select id="category" aria-label="按媒介分类"><option value="all">所有媒介</option></select><select id="family" aria-label="按风格家族筛选"><option value="all">所有风格家族</option></select><select id="evidence" aria-label="按样图筛选"><option value="all">全部配方</option><option value="sample">有样图</option><option value="draft">待生图</option></select><select id="pageSize" aria-label="每页展示数量"><option value="50">每页 50 条</option><option value="100">每页 100 条</option><option value="150">每页 150 条</option><option value="200">每页 200 条</option><option value="all">展示全部</option></select><span id="resultCount" role="status"></span></div></div></div></div><section id="gallery" aria-labelledby="galleryTitle"><p class="mobile-only" id="mobileResult" role="status"></p><div class="panel" id="useDiscovery"><strong>这次想做什么配图？</strong><div class="actions" style="gap:8px;flex-wrap:wrap;margin-top:8px"><button type="button" data-use="cover">文章 / 社交封面</button><button type="button" data-use="single">产品 / 网站配图</button><button type="button" data-use="explain">课程 / 知识讲解</button></div><p class="muted">先按构图用途筛选，再挑画风。生成后仍需检查效果和排版。</p><p class="muted card-hint">点击卡片查看风格详情</p></div><div class="grid" id="cards"></div><div class="actions section"><button id="prevPage">上一页</button><span id="pageInfo"></span><button id="nextPage">下一页</button></div><div id="empty" class="empty" hidden><h2>没有找到匹配的风格</h2><p>试试“线稿”“封面”，或者清除筛选条件。</p><button id="clearSearch">清除筛选</button></div>
 <div class="panel section"><div class="actions"><strong id="compareCount">已选 0 / 3 种进行比较</strong><button id="compareBtn" disabled>比较风格</button><button id="clearCompare">清空比较</button></div><small>比较不改变最终选择。至少勾选两种。</small><div id="comparison" class="tablewrap section" hidden></div></div>
 </section>
@@ -119,7 +162,16 @@ let dialogRestore=null;
 function openModal(dialog,title,opener=document.activeElement){if(dialogRestore)return;dialogRestore={dialog,x:window.scrollX,y:window.scrollY,style:document.body.getAttribute('style'),opener};Object.assign(document.body.style,{position:'fixed',top:`-${dialogRestore.y}px`,left:`-${dialogRestore.x}px`,width:'100%',overflow:'hidden'});dialog.showModal();title.focus({preventScroll:true});}
 function restoreModal(dialog){if(!dialogRestore||dialogRestore.dialog!==dialog)return;const saved=dialogRestore;dialogRestore=null;if(saved.style===null)document.body.removeAttribute('style');else document.body.setAttribute('style',saved.style);window.scrollTo({left:saved.x,top:saved.y,behavior:'instant'});if(saved.opener?.isConnected)saved.opener.focus({preventScroll:true});if(dialog===$('preview')){clearPreviewToast();state.pack=null;setStepIndicator(2);}}
 function closeModal(dialog){dialog.close();restoreModal(dialog);}
-for(const dialog of [$('detail'),$('preview')]){dialog.addEventListener('cancel',event=>{event.preventDefault();closeModal(dialog);});dialog.addEventListener('close',()=>{if(!dialog.open)restoreModal(dialog);});}
+for(const dialog of [$('detail'),$('preview')]){
+ let backdropPress=null;
+ const outside=event=>{const r=dialog.getBoundingClientRect();return event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom;};
+ // A click must start and end on the backdrop; dragging from content never dismisses.
+ dialog.addEventListener('pointerdown',event=>{backdropPress=event.isPrimary&&event.button===0&&event.target===dialog&&outside(event)?{id:event.pointerId,x:event.clientX,y:event.clientY}:null;});
+ dialog.addEventListener('pointercancel',()=>{backdropPress=null;});
+ dialog.addEventListener('click',event=>{const start=backdropPress;backdropPress=null;if(dialog.open&&start&&event.pointerId===start.id&&event.button===0&&event.target===dialog&&outside(event)&&Math.hypot(event.clientX-start.x,event.clientY-start.y)<10)closeModal(dialog);});
+ dialog.addEventListener('cancel',event=>{event.preventDefault();closeModal(dialog);});
+ dialog.addEventListener('close',()=>{backdropPress=null;if(!dialog.open)restoreModal(dialog);});
+}
 function openDetailDialog(opener=document.activeElement){openModal($('detail'),$('detailTitle'),opener);$('detailBody').scrollTop=0;}
 function closeDetailDialog(){closeModal($('detail'));}
 // Redirect keyboard/programmatic shell focus only; pointer focus must preserve text selection.
@@ -132,13 +184,13 @@ function showDetail(s,opener=document.activeElement){
  if(Boolean(s.sample_input)||s.image.startsWith('assets/catalogue/')){const a=document.createElement('a');a.href=s.sample_input||s.image.replace(/\.png$/,'.json');a.textContent='查看样图生成输入（JSON）';a.target='_blank';a.rel='noopener';a.className='detail-input';media.append(a);}}
  const summary=document.createElement('p');summary.className='detail-summary';summary.textContent=s.description;info.append(summary);
  if(s.medium?.trim()!==s.description?.trim()){const medium=document.createElement('p');medium.className='detail-medium';medium.textContent='视觉构成：'+s.medium;info.append(medium);}
- const uses=document.createElement('ul');uses.className='detail-uses';uses.setAttribute('aria-label','适用用途');for(const use of s.uses){const li=document.createElement('li');li.textContent=names[use];uses.append(li);}info.append(uses);
+ const uses=document.createElement('ul');uses.className='detail-uses';uses.setAttribute('aria-label','适用用途');for(const use of s.uses){const li=document.createElement('li');li.textContent=names[use];uses.append(li);}media.insertBefore(uses,media.querySelector('.detail-input'));
  const facts=document.createElement('dl');facts.className='detail-facts';for(const [label,value,secondary] of [['使用注意',s.risk],['验证状态',s.validation],['样图说明',s.sample_note],['来源',s.source,true],['风格家族',(s.family_name||s.name)+(s.variant_of?'（画法变体）':'（基础配方）'),true]]){if(!value)continue;const row=document.createElement('div');if(secondary)row.className='detail-secondary';const dt=document.createElement('dt');dt.textContent=label;const dd=document.createElement('dd');dd.textContent=value;row.append(dt,dd);facts.append(row);}info.append(facts);$('useDetail').hidden=false;openDetailDialog(opener);
 }
 function step(n){$('galleryControls').hidden=n!==1;['gallery','brief'].forEach((id,i)=>$(id).hidden=i!==n-1);setStepIndicator(n);announce('');$(n===1?'galleryTitle':'briefTitle').focus();window.scrollTo(0,0);}
 function select(s){state.selected=s;$('chosenName').textContent=s.name;$('chosenDescription').textContent=s.description;$('chosenImage').hidden=!s.image;if(s.image)$('chosenImage').src=s.image;else $('chosenImage').removeAttribute('src');$('chosenDescription').textContent=s.description+' '+s.validation;for(const o of $('purpose').options)o.disabled=!s.uses.includes(o.value);if(!s.uses.includes($('purpose').value))$('purpose').value=s.uses[0];if($('filter').value!=='all'&&s.uses.includes($('filter').value))$('purpose').value=$('filter').value;$('formError').textContent='';step(2);}
 function renderFromTop(){const top=0;render();if(window.scrollY>top)window.scrollTo({top,behavior:'instant'});}
-$('mobileFilters').onclick=()=>{const expanded=$('mobileFilters').getAttribute('aria-expanded')!=='true';$('mobileFilters').setAttribute('aria-expanded',String(expanded));document.querySelector('.gallery-top').dataset.expanded=String(expanded);$('mobileFilters').textContent=expanded?'收起说明与更多筛选':'展开说明与更多筛选';};
+$('mobileFilters').onclick=()=>{const expanded=$('mobileFilters').getAttribute('aria-expanded')!=='true';$('mobileFilters').setAttribute('aria-expanded',String(expanded));document.querySelector('.gallery-top').dataset.expanded=String(expanded);$('mobileFilters').textContent=expanded?'收起':'筛选';$('mobileFilters').setAttribute('aria-label',expanded?'收起说明与更多筛选':'展开说明与更多筛选');};
 const resetPage=()=>{page=1;renderFromTop();};$('pageSize').onchange=resetPage;$('prevPage').onclick=()=>{page--;renderFromTop();};$('nextPage').onclick=()=>{page++;renderFromTop();};document.querySelectorAll('[data-use]').forEach(button=>button.onclick=()=>{$('search').value='';$('browseMode').value='families';$('family').value='all';$('category').value='all';$('evidence').value='all';$('filter').value=button.dataset.use;resetPage();});$('browseMode').onchange=resetPage;$('search').oninput=resetPage;$('filter').onchange=resetPage;$('category').onchange=resetPage;$('family').onchange=resetPage;$('evidence').onchange=resetPage;$('clearSearch').onclick=()=>{$('browseMode').value='all';$('search').value='';$('filter').value='all';$('category').value='all';$('family').value='all';$('evidence').value='all';resetPage();};
 $('clearCompare').onclick=()=>{state.compare.clear();updateCompare();render();};
 $('compareBtn').onclick=()=>{const list=styles.filter(s=>state.compare.has(s.id));$('comparison').innerHTML='<table><caption>所选风格的用途与差异</caption><thead><tr><th>维度</th>'+list.map(s=>'<th>'+s.name+'</th>').join('')+'</tr></thead><tbody><tr><th>候选样图</th>'+list.map(s=>'<td>'+(s.image?'<img src="'+s.image+'" alt="'+s.name+'候选样图" style="width:180px;max-width:100%;height:180px;object-fit:contain">':'暂无样图')+'</td>').join('')+'</tr>'+[['视觉构成','medium'],['注意事项','risk']].map(([label,key])=>'<tr><th>'+label+'</th>'+list.map(s=>'<td>'+s[key]+'</td>').join('')+'</tr>').join('')+'<tr><th>用途</th>'+list.map(s=>'<td>'+s.uses.map(x=>names[x]).join('、')+'</td>').join('')+'</tr></tbody></table>';$('comparison').hidden=false;};
