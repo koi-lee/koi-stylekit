@@ -26,7 +26,9 @@
     "family_id": "emotional-sketch",
     "family_name": "淡彩速写",
     "variant_of": null,
-    "catalogue_number": "001"
+    "catalogue_number": "001",
+    "image_width": 1536,
+    "image_height": 1024
   },
   {
     "id": "colored-pencil-diary",
@@ -55,7 +57,9 @@
     "family_id": "colored-pencil-diary",
     "family_name": "彩铅日记",
     "variant_of": null,
-    "catalogue_number": "002"
+    "catalogue_number": "002",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "duotone-print",
@@ -82,7 +86,9 @@
     "family_id": "duotone-print",
     "family_name": "双色孔版",
     "variant_of": null,
-    "catalogue_number": "003"
+    "catalogue_number": "003",
+    "image_width": 1222,
+    "image_height": 1287
   },
   {
     "id": "layered-paper",
@@ -109,7 +115,9 @@
     "family_id": "layered-paper",
     "family_name": "层叠纸雕",
     "variant_of": null,
-    "catalogue_number": "004"
+    "catalogue_number": "004",
+    "image_width": 1672,
+    "image_height": 941
   },
   {
     "id": "watercolor-wash",
@@ -135,7 +143,9 @@
     "family_id": "watercolor-wash",
     "family_name": "水彩晕染",
     "variant_of": null,
-    "catalogue_number": "005"
+    "catalogue_number": "005",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "opaque-gouache",
@@ -161,7 +171,9 @@
     "family_id": "opaque-gouache",
     "family_name": "不透明水粉",
     "variant_of": null,
-    "catalogue_number": "006"
+    "catalogue_number": "006",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "oil-impasto",
@@ -187,7 +199,9 @@
     "family_id": "oil-impasto",
     "family_name": "厚涂油画",
     "variant_of": null,
-    "catalogue_number": "007"
+    "catalogue_number": "007",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "soft-pastel",
@@ -213,7 +227,9 @@
     "family_id": "soft-pastel",
     "family_name": "柔粉彩",
     "variant_of": null,
-    "catalogue_number": "008"
+    "catalogue_number": "008",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "ink-wash",
@@ -239,7 +255,9 @@
     "family_id": "ink-wash",
     "family_name": "水墨留白",
     "variant_of": null,
-    "catalogue_number": "009"
+    "catalogue_number": "009",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "charcoal-study",
@@ -265,7 +283,9 @@
     "family_id": "charcoal-study",
     "family_name": "炭笔素描",
     "variant_of": null,
-    "catalogue_number": "010"
+    "catalogue_number": "010",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "crayon-doodle",
@@ -291,7 +311,9 @@
     "family_id": "crayon-doodle",
     "family_name": "蜡笔涂鸦",
     "variant_of": null,
-    "catalogue_number": "011"
+    "catalogue_number": "011",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "continuous-line",
@@ -317,7 +339,9 @@
     "family_id": "continuous-line",
     "family_name": "连续线描",
     "variant_of": null,
-    "catalogue_number": "012"
+    "catalogue_number": "012",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "pen-hatching",
@@ -343,7 +367,9 @@
     "family_id": "pen-hatching",
     "family_name": "钢笔排线",
     "variant_of": null,
-    "catalogue_number": "013"
+    "catalogue_number": "013",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "marker-sketch",
@@ -369,7 +395,9 @@
     "family_id": "marker-sketch",
     "family_name": "马克笔速写",
     "variant_of": null,
-    "catalogue_number": "014"
+    "catalogue_number": "014",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "chalk-board",
@@ -395,7 +423,9 @@
     "family_id": "chalk-board",
     "family_name": "粉笔黑板",
     "variant_of": null,
-    "catalogue_number": "015"
+    "catalogue_number": "015",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "stipple-ink",
@@ -421,7 +451,9 @@
     "family_id": "stipple-ink",
     "family_name": "点描墨画",
     "variant_of": null,
-    "catalogue_number": "016"
+    "catalogue_number": "016",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "woodcut",
@@ -447,7 +479,9 @@
     "family_id": "woodcut",
     "family_name": "黑白木刻",
     "variant_of": null,
-    "catalogue_number": "017"
+    "catalogue_number": "017",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "linocut-color",
@@ -473,7 +507,9 @@
     "family_id": "linocut-color",
     "family_name": "彩色油毡版画",
     "variant_of": null,
-    "catalogue_number": "018"
+    "catalogue_number": "018",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "copper-etching",
@@ -499,7 +535,9 @@
     "family_id": "copper-etching",
     "family_name": "铜版蚀刻",
     "variant_of": null,
-    "catalogue_number": "019"
+    "catalogue_number": "019",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "screenprint",
@@ -525,7 +563,9 @@
     "family_id": "screenprint",
     "family_name": "丝网印刷",
     "variant_of": null,
-    "catalogue_number": "020"
+    "catalogue_number": "020",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "cyanotype",
@@ -551,7 +591,9 @@
     "family_id": "cyanotype",
     "family_name": "蓝晒影像",
     "variant_of": null,
-    "catalogue_number": "021"
+    "catalogue_number": "021",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "rubber-stamp",
@@ -577,7 +619,9 @@
     "family_id": "rubber-stamp",
     "family_name": "橡皮章",
     "variant_of": null,
-    "catalogue_number": "022"
+    "catalogue_number": "022",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "cut-paper",
@@ -603,7 +647,9 @@
     "family_id": "cut-paper",
     "family_name": "剪纸拼贴",
     "variant_of": null,
-    "catalogue_number": "023"
+    "catalogue_number": "023",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "red-papercut",
@@ -629,7 +675,9 @@
     "family_id": "red-papercut",
     "family_name": "民俗剪纸",
     "variant_of": null,
-    "catalogue_number": "024"
+    "catalogue_number": "024",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "origami-scene",
@@ -655,7 +703,9 @@
     "family_id": "origami-scene",
     "family_name": "折纸场景",
     "variant_of": null,
-    "catalogue_number": "025"
+    "catalogue_number": "025",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "paper-quilling",
@@ -681,7 +731,9 @@
     "family_id": "paper-quilling",
     "family_name": "衍纸卷线",
     "variant_of": null,
-    "catalogue_number": "026"
+    "catalogue_number": "026",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "torn-collage",
@@ -707,7 +759,9 @@
     "family_id": "torn-collage",
     "family_name": "撕纸拼贴",
     "variant_of": null,
-    "catalogue_number": "027"
+    "catalogue_number": "027",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "clay-miniature",
@@ -733,7 +787,9 @@
     "family_id": "clay-miniature",
     "family_name": "黏土微缩",
     "variant_of": null,
-    "catalogue_number": "028"
+    "catalogue_number": "028",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "felt-craft",
@@ -759,7 +815,9 @@
     "family_id": "felt-craft",
     "family_name": "羊毛毡",
     "variant_of": null,
-    "catalogue_number": "029"
+    "catalogue_number": "029",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "ceramic-miniature",
@@ -785,7 +843,9 @@
     "family_id": "ceramic-miniature",
     "family_name": "陶瓷微景",
     "variant_of": null,
-    "catalogue_number": "030"
+    "catalogue_number": "030",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "wooden-toy",
@@ -811,7 +871,9 @@
     "family_id": "wooden-toy",
     "family_name": "木玩具",
     "variant_of": null,
-    "catalogue_number": "031"
+    "catalogue_number": "031",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "low-poly",
@@ -837,7 +899,9 @@
     "family_id": "low-poly",
     "family_name": "低多边形",
     "variant_of": null,
-    "catalogue_number": "032"
+    "catalogue_number": "032",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "isometric",
@@ -863,7 +927,9 @@
     "family_id": "isometric",
     "family_name": "等距几何",
     "variant_of": null,
-    "catalogue_number": "033"
+    "catalogue_number": "033",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "flat-geometric",
@@ -889,7 +955,9 @@
     "family_id": "flat-geometric",
     "family_name": "平面几何",
     "variant_of": null,
-    "catalogue_number": "034"
+    "catalogue_number": "034",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "bauhaus-poster",
@@ -915,7 +983,9 @@
     "family_id": "bauhaus-poster",
     "family_name": "包豪斯几何海报",
     "variant_of": null,
-    "catalogue_number": "035"
+    "catalogue_number": "035",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "pixel-art",
@@ -941,7 +1011,9 @@
     "family_id": "pixel-art",
     "family_name": "像素插画",
     "variant_of": null,
-    "catalogue_number": "036"
+    "catalogue_number": "036",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "halftone-comic",
@@ -967,7 +1039,9 @@
     "family_id": "halftone-comic",
     "family_name": "网点漫画",
     "variant_of": null,
-    "catalogue_number": "037"
+    "catalogue_number": "037",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "retro-travel",
@@ -993,7 +1067,9 @@
     "family_id": "retro-travel",
     "family_name": "复古旅行海报",
     "variant_of": null,
-    "catalogue_number": "038"
+    "catalogue_number": "038",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "botanical-plate",
@@ -1019,7 +1095,9 @@
     "family_id": "botanical-plate",
     "family_name": "植物图谱",
     "variant_of": null,
-    "catalogue_number": "039"
+    "catalogue_number": "039",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "embroidered",
@@ -1045,7 +1123,9 @@
     "family_id": "embroidered",
     "family_name": "刺绣织物",
     "variant_of": null,
-    "catalogue_number": "040"
+    "catalogue_number": "040",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "emotional-sketch--gesture",
@@ -1072,7 +1152,9 @@
     "family_id": "emotional-sketch",
     "family_name": "淡彩速写",
     "variant_of": "emotional-sketch",
-    "catalogue_number": "041"
+    "catalogue_number": "041",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "emotional-sketch--sparse",
@@ -1099,7 +1181,9 @@
     "family_id": "emotional-sketch",
     "family_name": "淡彩速写",
     "variant_of": "emotional-sketch",
-    "catalogue_number": "042"
+    "catalogue_number": "042",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "emotional-sketch--contour",
@@ -1126,7 +1210,9 @@
     "family_id": "emotional-sketch",
     "family_name": "淡彩速写",
     "variant_of": "emotional-sketch",
-    "catalogue_number": "043"
+    "catalogue_number": "043",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "emotional-sketch--detail",
@@ -1153,7 +1239,9 @@
     "family_id": "emotional-sketch",
     "family_name": "淡彩速写",
     "variant_of": "emotional-sketch",
-    "catalogue_number": "044"
+    "catalogue_number": "044",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "emotional-sketch--rhythm",
@@ -1180,7 +1268,9 @@
     "family_id": "emotional-sketch",
     "family_name": "淡彩速写",
     "variant_of": "emotional-sketch",
-    "catalogue_number": "045"
+    "catalogue_number": "045",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "emotional-sketch--angular",
@@ -1207,7 +1297,9 @@
     "family_id": "emotional-sketch",
     "family_name": "淡彩速写",
     "variant_of": "emotional-sketch",
-    "catalogue_number": "046"
+    "catalogue_number": "046",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "emotional-sketch--vignette",
@@ -1234,7 +1326,9 @@
     "family_id": "emotional-sketch",
     "family_name": "淡彩速写",
     "variant_of": "emotional-sketch",
-    "catalogue_number": "047"
+    "catalogue_number": "047",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "colored-pencil-diary--loose",
@@ -1261,7 +1355,9 @@
     "family_id": "colored-pencil-diary",
     "family_name": "彩铅日记",
     "variant_of": "colored-pencil-diary",
-    "catalogue_number": "048"
+    "catalogue_number": "048",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "colored-pencil-diary--detailed",
@@ -1288,7 +1384,9 @@
     "family_id": "colored-pencil-diary",
     "family_name": "彩铅日记",
     "variant_of": "colored-pencil-diary",
-    "catalogue_number": "049"
+    "catalogue_number": "049",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "colored-pencil-diary--negative-space",
@@ -1315,7 +1413,9 @@
     "family_id": "colored-pencil-diary",
     "family_name": "彩铅日记",
     "variant_of": "colored-pencil-diary",
-    "catalogue_number": "050"
+    "catalogue_number": "050",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "colored-pencil-diary--silhouette",
@@ -1342,7 +1442,9 @@
     "family_id": "colored-pencil-diary",
     "family_name": "彩铅日记",
     "variant_of": "colored-pencil-diary",
-    "catalogue_number": "051"
+    "catalogue_number": "051",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "colored-pencil-diary--rhythmic",
@@ -1369,7 +1471,9 @@
     "family_id": "colored-pencil-diary",
     "family_name": "彩铅日记",
     "variant_of": "colored-pencil-diary",
-    "catalogue_number": "052"
+    "catalogue_number": "052",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "colored-pencil-diary--close-study",
@@ -1396,7 +1500,9 @@
     "family_id": "colored-pencil-diary",
     "family_name": "彩铅日记",
     "variant_of": "colored-pencil-diary",
-    "catalogue_number": "053"
+    "catalogue_number": "053",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "colored-pencil-diary--airy",
@@ -1423,7 +1529,9 @@
     "family_id": "colored-pencil-diary",
     "family_name": "彩铅日记",
     "variant_of": "colored-pencil-diary",
-    "catalogue_number": "054"
+    "catalogue_number": "054",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "duotone-print--bold",
@@ -1450,7 +1558,9 @@
     "family_id": "duotone-print",
     "family_name": "双色孔版",
     "variant_of": "duotone-print",
-    "catalogue_number": "055"
+    "catalogue_number": "055",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "duotone-print--fine",
@@ -1477,7 +1587,9 @@
     "family_id": "duotone-print",
     "family_name": "双色孔版",
     "variant_of": "duotone-print",
-    "catalogue_number": "056"
+    "catalogue_number": "056",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "duotone-print--negative",
@@ -1504,7 +1616,9 @@
     "family_id": "duotone-print",
     "family_name": "双色孔版",
     "variant_of": "duotone-print",
-    "catalogue_number": "057"
+    "catalogue_number": "057",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "duotone-print--folk",
@@ -1531,7 +1645,9 @@
     "family_id": "duotone-print",
     "family_name": "双色孔版",
     "variant_of": "duotone-print",
-    "catalogue_number": "058"
+    "catalogue_number": "058",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "duotone-print--editorial",
@@ -1558,7 +1674,9 @@
     "family_id": "duotone-print",
     "family_name": "双色孔版",
     "variant_of": "duotone-print",
-    "catalogue_number": "059"
+    "catalogue_number": "059",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "duotone-print--compact",
@@ -1585,7 +1703,9 @@
     "family_id": "duotone-print",
     "family_name": "双色孔版",
     "variant_of": "duotone-print",
-    "catalogue_number": "060"
+    "catalogue_number": "060",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "duotone-print--rhythmic",
@@ -1612,7 +1732,9 @@
     "family_id": "duotone-print",
     "family_name": "双色孔版",
     "variant_of": "duotone-print",
-    "catalogue_number": "061"
+    "catalogue_number": "061",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "layered-paper--minimal",
@@ -1639,7 +1761,9 @@
     "family_id": "layered-paper",
     "family_name": "层叠纸雕",
     "variant_of": "layered-paper",
-    "catalogue_number": "062"
+    "catalogue_number": "062",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "layered-paper--intricate",
@@ -1666,7 +1790,9 @@
     "family_id": "layered-paper",
     "family_name": "层叠纸雕",
     "variant_of": "layered-paper",
-    "catalogue_number": "063"
+    "catalogue_number": "063",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "layered-paper--geometric",
@@ -1693,7 +1819,9 @@
     "family_id": "layered-paper",
     "family_name": "层叠纸雕",
     "variant_of": "layered-paper",
-    "catalogue_number": "064"
+    "catalogue_number": "064",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "layered-paper--organic",
@@ -1720,7 +1848,9 @@
     "family_id": "layered-paper",
     "family_name": "层叠纸雕",
     "variant_of": "layered-paper",
-    "catalogue_number": "065"
+    "catalogue_number": "065",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "layered-paper--vignette",
@@ -1747,7 +1877,9 @@
     "family_id": "layered-paper",
     "family_name": "层叠纸雕",
     "variant_of": "layered-paper",
-    "catalogue_number": "066"
+    "catalogue_number": "066",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "layered-paper--silhouette",
@@ -1774,7 +1906,9 @@
     "family_id": "layered-paper",
     "family_name": "层叠纸雕",
     "variant_of": "layered-paper",
-    "catalogue_number": "067"
+    "catalogue_number": "067",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "layered-paper--ornamental",
@@ -1801,7 +1935,9 @@
     "family_id": "layered-paper",
     "family_name": "层叠纸雕",
     "variant_of": "layered-paper",
-    "catalogue_number": "068"
+    "catalogue_number": "068",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "watercolor-wash--loose",
@@ -1827,7 +1963,9 @@
     "family_id": "watercolor-wash",
     "family_name": "水彩晕染",
     "variant_of": "watercolor-wash",
-    "catalogue_number": "069"
+    "catalogue_number": "069",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "watercolor-wash--detailed",
@@ -1853,7 +1991,9 @@
     "family_id": "watercolor-wash",
     "family_name": "水彩晕染",
     "variant_of": "watercolor-wash",
-    "catalogue_number": "070"
+    "catalogue_number": "070",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "watercolor-wash--negative-space",
@@ -1879,7 +2019,9 @@
     "family_id": "watercolor-wash",
     "family_name": "水彩晕染",
     "variant_of": "watercolor-wash",
-    "catalogue_number": "071"
+    "catalogue_number": "071",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "watercolor-wash--silhouette",
@@ -1905,7 +2047,9 @@
     "family_id": "watercolor-wash",
     "family_name": "水彩晕染",
     "variant_of": "watercolor-wash",
-    "catalogue_number": "072"
+    "catalogue_number": "072",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "watercolor-wash--rhythmic",
@@ -1931,7 +2075,9 @@
     "family_id": "watercolor-wash",
     "family_name": "水彩晕染",
     "variant_of": "watercolor-wash",
-    "catalogue_number": "073"
+    "catalogue_number": "073",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "watercolor-wash--close-study",
@@ -1957,7 +2103,9 @@
     "family_id": "watercolor-wash",
     "family_name": "水彩晕染",
     "variant_of": "watercolor-wash",
-    "catalogue_number": "074"
+    "catalogue_number": "074",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "watercolor-wash--airy",
@@ -1983,7 +2131,9 @@
     "family_id": "watercolor-wash",
     "family_name": "水彩晕染",
     "variant_of": "watercolor-wash",
-    "catalogue_number": "075"
+    "catalogue_number": "075",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "opaque-gouache--loose",
@@ -2009,7 +2159,9 @@
     "family_id": "opaque-gouache",
     "family_name": "不透明水粉",
     "variant_of": "opaque-gouache",
-    "catalogue_number": "076"
+    "catalogue_number": "076",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "opaque-gouache--detailed",
@@ -2035,7 +2187,9 @@
     "family_id": "opaque-gouache",
     "family_name": "不透明水粉",
     "variant_of": "opaque-gouache",
-    "catalogue_number": "077"
+    "catalogue_number": "077",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "opaque-gouache--negative-space",
@@ -2061,7 +2215,9 @@
     "family_id": "opaque-gouache",
     "family_name": "不透明水粉",
     "variant_of": "opaque-gouache",
-    "catalogue_number": "078"
+    "catalogue_number": "078",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "opaque-gouache--silhouette",
@@ -2087,7 +2243,9 @@
     "family_id": "opaque-gouache",
     "family_name": "不透明水粉",
     "variant_of": "opaque-gouache",
-    "catalogue_number": "079"
+    "catalogue_number": "079",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "opaque-gouache--rhythmic",
@@ -2113,7 +2271,9 @@
     "family_id": "opaque-gouache",
     "family_name": "不透明水粉",
     "variant_of": "opaque-gouache",
-    "catalogue_number": "080"
+    "catalogue_number": "080",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "opaque-gouache--close-study",
@@ -2139,7 +2299,9 @@
     "family_id": "opaque-gouache",
     "family_name": "不透明水粉",
     "variant_of": "opaque-gouache",
-    "catalogue_number": "081"
+    "catalogue_number": "081",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "opaque-gouache--airy",
@@ -2165,7 +2327,9 @@
     "family_id": "opaque-gouache",
     "family_name": "不透明水粉",
     "variant_of": "opaque-gouache",
-    "catalogue_number": "082"
+    "catalogue_number": "082",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "oil-impasto--loose",
@@ -2191,7 +2355,9 @@
     "family_id": "oil-impasto",
     "family_name": "厚涂油画",
     "variant_of": "oil-impasto",
-    "catalogue_number": "083"
+    "catalogue_number": "083",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "oil-impasto--detailed",
@@ -2217,7 +2383,9 @@
     "family_id": "oil-impasto",
     "family_name": "厚涂油画",
     "variant_of": "oil-impasto",
-    "catalogue_number": "084"
+    "catalogue_number": "084",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "oil-impasto--negative-space",
@@ -2243,7 +2411,9 @@
     "family_id": "oil-impasto",
     "family_name": "厚涂油画",
     "variant_of": "oil-impasto",
-    "catalogue_number": "085"
+    "catalogue_number": "085",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "oil-impasto--silhouette",
@@ -2269,7 +2439,9 @@
     "family_id": "oil-impasto",
     "family_name": "厚涂油画",
     "variant_of": "oil-impasto",
-    "catalogue_number": "086"
+    "catalogue_number": "086",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "oil-impasto--rhythmic",
@@ -2295,7 +2467,9 @@
     "family_id": "oil-impasto",
     "family_name": "厚涂油画",
     "variant_of": "oil-impasto",
-    "catalogue_number": "087"
+    "catalogue_number": "087",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "oil-impasto--close-study",
@@ -2321,7 +2495,9 @@
     "family_id": "oil-impasto",
     "family_name": "厚涂油画",
     "variant_of": "oil-impasto",
-    "catalogue_number": "088"
+    "catalogue_number": "088",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "oil-impasto--airy",
@@ -2347,7 +2523,9 @@
     "family_id": "oil-impasto",
     "family_name": "厚涂油画",
     "variant_of": "oil-impasto",
-    "catalogue_number": "089"
+    "catalogue_number": "089",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "soft-pastel--loose",
@@ -2373,7 +2551,9 @@
     "family_id": "soft-pastel",
     "family_name": "柔粉彩",
     "variant_of": "soft-pastel",
-    "catalogue_number": "090"
+    "catalogue_number": "090",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "soft-pastel--detailed",
@@ -2399,7 +2579,9 @@
     "family_id": "soft-pastel",
     "family_name": "柔粉彩",
     "variant_of": "soft-pastel",
-    "catalogue_number": "091"
+    "catalogue_number": "091",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "soft-pastel--negative-space",
@@ -2425,7 +2607,9 @@
     "family_id": "soft-pastel",
     "family_name": "柔粉彩",
     "variant_of": "soft-pastel",
-    "catalogue_number": "092"
+    "catalogue_number": "092",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "soft-pastel--silhouette",
@@ -2451,7 +2635,9 @@
     "family_id": "soft-pastel",
     "family_name": "柔粉彩",
     "variant_of": "soft-pastel",
-    "catalogue_number": "093"
+    "catalogue_number": "093",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "soft-pastel--rhythmic",
@@ -2477,7 +2663,9 @@
     "family_id": "soft-pastel",
     "family_name": "柔粉彩",
     "variant_of": "soft-pastel",
-    "catalogue_number": "094"
+    "catalogue_number": "094",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "soft-pastel--close-study",
@@ -2503,7 +2691,9 @@
     "family_id": "soft-pastel",
     "family_name": "柔粉彩",
     "variant_of": "soft-pastel",
-    "catalogue_number": "095"
+    "catalogue_number": "095",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "soft-pastel--airy",
@@ -2529,7 +2719,9 @@
     "family_id": "soft-pastel",
     "family_name": "柔粉彩",
     "variant_of": "soft-pastel",
-    "catalogue_number": "096"
+    "catalogue_number": "096",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "ink-wash--loose",
@@ -2555,7 +2747,9 @@
     "family_id": "ink-wash",
     "family_name": "水墨留白",
     "variant_of": "ink-wash",
-    "catalogue_number": "097"
+    "catalogue_number": "097",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "ink-wash--detailed",
@@ -2581,7 +2775,9 @@
     "family_id": "ink-wash",
     "family_name": "水墨留白",
     "variant_of": "ink-wash",
-    "catalogue_number": "098"
+    "catalogue_number": "098",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "ink-wash--negative-space",
@@ -2607,7 +2803,9 @@
     "family_id": "ink-wash",
     "family_name": "水墨留白",
     "variant_of": "ink-wash",
-    "catalogue_number": "099"
+    "catalogue_number": "099",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "ink-wash--silhouette",
@@ -2633,7 +2831,9 @@
     "family_id": "ink-wash",
     "family_name": "水墨留白",
     "variant_of": "ink-wash",
-    "catalogue_number": "100"
+    "catalogue_number": "100",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "ink-wash--rhythmic",
@@ -2659,7 +2859,9 @@
     "family_id": "ink-wash",
     "family_name": "水墨留白",
     "variant_of": "ink-wash",
-    "catalogue_number": "101"
+    "catalogue_number": "101",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "ink-wash--close-study",
@@ -2685,7 +2887,9 @@
     "family_id": "ink-wash",
     "family_name": "水墨留白",
     "variant_of": "ink-wash",
-    "catalogue_number": "102"
+    "catalogue_number": "102",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "ink-wash--airy",
@@ -2711,7 +2915,9 @@
     "family_id": "ink-wash",
     "family_name": "水墨留白",
     "variant_of": "ink-wash",
-    "catalogue_number": "103"
+    "catalogue_number": "103",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "charcoal-study--loose",
@@ -2737,7 +2943,9 @@
     "family_id": "charcoal-study",
     "family_name": "炭笔素描",
     "variant_of": "charcoal-study",
-    "catalogue_number": "104"
+    "catalogue_number": "104",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "charcoal-study--detailed",
@@ -2763,7 +2971,9 @@
     "family_id": "charcoal-study",
     "family_name": "炭笔素描",
     "variant_of": "charcoal-study",
-    "catalogue_number": "105"
+    "catalogue_number": "105",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "charcoal-study--negative-space",
@@ -2789,7 +2999,9 @@
     "family_id": "charcoal-study",
     "family_name": "炭笔素描",
     "variant_of": "charcoal-study",
-    "catalogue_number": "106"
+    "catalogue_number": "106",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "charcoal-study--silhouette",
@@ -2815,7 +3027,9 @@
     "family_id": "charcoal-study",
     "family_name": "炭笔素描",
     "variant_of": "charcoal-study",
-    "catalogue_number": "107"
+    "catalogue_number": "107",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "charcoal-study--rhythmic",
@@ -2841,7 +3055,9 @@
     "family_id": "charcoal-study",
     "family_name": "炭笔素描",
     "variant_of": "charcoal-study",
-    "catalogue_number": "108"
+    "catalogue_number": "108",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "charcoal-study--close-study",
@@ -2867,7 +3083,9 @@
     "family_id": "charcoal-study",
     "family_name": "炭笔素描",
     "variant_of": "charcoal-study",
-    "catalogue_number": "109"
+    "catalogue_number": "109",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "charcoal-study--airy",
@@ -2893,7 +3111,9 @@
     "family_id": "charcoal-study",
     "family_name": "炭笔素描",
     "variant_of": "charcoal-study",
-    "catalogue_number": "110"
+    "catalogue_number": "110",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "crayon-doodle--gesture",
@@ -2919,7 +3139,9 @@
     "family_id": "crayon-doodle",
     "family_name": "蜡笔涂鸦",
     "variant_of": "crayon-doodle",
-    "catalogue_number": "111"
+    "catalogue_number": "111",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "crayon-doodle--sparse",
@@ -2945,7 +3167,9 @@
     "family_id": "crayon-doodle",
     "family_name": "蜡笔涂鸦",
     "variant_of": "crayon-doodle",
-    "catalogue_number": "112"
+    "catalogue_number": "112",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "crayon-doodle--contour",
@@ -2971,7 +3195,9 @@
     "family_id": "crayon-doodle",
     "family_name": "蜡笔涂鸦",
     "variant_of": "crayon-doodle",
-    "catalogue_number": "113"
+    "catalogue_number": "113",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "crayon-doodle--detail",
@@ -2997,7 +3223,9 @@
     "family_id": "crayon-doodle",
     "family_name": "蜡笔涂鸦",
     "variant_of": "crayon-doodle",
-    "catalogue_number": "114"
+    "catalogue_number": "114",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "crayon-doodle--rhythm",
@@ -3023,7 +3251,9 @@
     "family_id": "crayon-doodle",
     "family_name": "蜡笔涂鸦",
     "variant_of": "crayon-doodle",
-    "catalogue_number": "115"
+    "catalogue_number": "115",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "crayon-doodle--angular",
@@ -3049,7 +3279,9 @@
     "family_id": "crayon-doodle",
     "family_name": "蜡笔涂鸦",
     "variant_of": "crayon-doodle",
-    "catalogue_number": "116"
+    "catalogue_number": "116",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "crayon-doodle--vignette",
@@ -3075,7 +3307,9 @@
     "family_id": "crayon-doodle",
     "family_name": "蜡笔涂鸦",
     "variant_of": "crayon-doodle",
-    "catalogue_number": "117"
+    "catalogue_number": "117",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "continuous-line--gesture",
@@ -3101,7 +3335,9 @@
     "family_id": "continuous-line",
     "family_name": "连续线描",
     "variant_of": "continuous-line",
-    "catalogue_number": "118"
+    "catalogue_number": "118",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "continuous-line--sparse",
@@ -3127,7 +3363,9 @@
     "family_id": "continuous-line",
     "family_name": "连续线描",
     "variant_of": "continuous-line",
-    "catalogue_number": "119"
+    "catalogue_number": "119",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "continuous-line--contour",
@@ -3153,7 +3391,9 @@
     "family_id": "continuous-line",
     "family_name": "连续线描",
     "variant_of": "continuous-line",
-    "catalogue_number": "120"
+    "catalogue_number": "120",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "continuous-line--detail",
@@ -3179,7 +3419,9 @@
     "family_id": "continuous-line",
     "family_name": "连续线描",
     "variant_of": "continuous-line",
-    "catalogue_number": "121"
+    "catalogue_number": "121",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "continuous-line--rhythm",
@@ -3205,7 +3447,9 @@
     "family_id": "continuous-line",
     "family_name": "连续线描",
     "variant_of": "continuous-line",
-    "catalogue_number": "122"
+    "catalogue_number": "122",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "continuous-line--angular",
@@ -3231,7 +3475,9 @@
     "family_id": "continuous-line",
     "family_name": "连续线描",
     "variant_of": "continuous-line",
-    "catalogue_number": "123"
+    "catalogue_number": "123",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "continuous-line--vignette",
@@ -3257,7 +3503,9 @@
     "family_id": "continuous-line",
     "family_name": "连续线描",
     "variant_of": "continuous-line",
-    "catalogue_number": "124"
+    "catalogue_number": "124",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "pen-hatching--gesture",
@@ -3283,7 +3531,9 @@
     "family_id": "pen-hatching",
     "family_name": "钢笔排线",
     "variant_of": "pen-hatching",
-    "catalogue_number": "125"
+    "catalogue_number": "125",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "pen-hatching--sparse",
@@ -3309,7 +3559,9 @@
     "family_id": "pen-hatching",
     "family_name": "钢笔排线",
     "variant_of": "pen-hatching",
-    "catalogue_number": "126"
+    "catalogue_number": "126",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "pen-hatching--contour",
@@ -3335,7 +3587,9 @@
     "family_id": "pen-hatching",
     "family_name": "钢笔排线",
     "variant_of": "pen-hatching",
-    "catalogue_number": "127"
+    "catalogue_number": "127",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "pen-hatching--detail",
@@ -3361,7 +3615,9 @@
     "family_id": "pen-hatching",
     "family_name": "钢笔排线",
     "variant_of": "pen-hatching",
-    "catalogue_number": "128"
+    "catalogue_number": "128",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "pen-hatching--rhythm",
@@ -3387,7 +3643,9 @@
     "family_id": "pen-hatching",
     "family_name": "钢笔排线",
     "variant_of": "pen-hatching",
-    "catalogue_number": "129"
+    "catalogue_number": "129",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "pen-hatching--angular",
@@ -3413,7 +3671,9 @@
     "family_id": "pen-hatching",
     "family_name": "钢笔排线",
     "variant_of": "pen-hatching",
-    "catalogue_number": "130"
+    "catalogue_number": "130",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "pen-hatching--vignette",
@@ -3439,7 +3699,9 @@
     "family_id": "pen-hatching",
     "family_name": "钢笔排线",
     "variant_of": "pen-hatching",
-    "catalogue_number": "131"
+    "catalogue_number": "131",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "marker-sketch--gesture",
@@ -3465,7 +3727,9 @@
     "family_id": "marker-sketch",
     "family_name": "马克笔速写",
     "variant_of": "marker-sketch",
-    "catalogue_number": "132"
+    "catalogue_number": "132",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "marker-sketch--sparse",
@@ -3491,7 +3755,9 @@
     "family_id": "marker-sketch",
     "family_name": "马克笔速写",
     "variant_of": "marker-sketch",
-    "catalogue_number": "133"
+    "catalogue_number": "133",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "marker-sketch--contour",
@@ -3517,7 +3783,9 @@
     "family_id": "marker-sketch",
     "family_name": "马克笔速写",
     "variant_of": "marker-sketch",
-    "catalogue_number": "134"
+    "catalogue_number": "134",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "marker-sketch--detail",
@@ -3543,7 +3811,9 @@
     "family_id": "marker-sketch",
     "family_name": "马克笔速写",
     "variant_of": "marker-sketch",
-    "catalogue_number": "135"
+    "catalogue_number": "135",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "marker-sketch--rhythm",
@@ -3569,7 +3839,9 @@
     "family_id": "marker-sketch",
     "family_name": "马克笔速写",
     "variant_of": "marker-sketch",
-    "catalogue_number": "136"
+    "catalogue_number": "136",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "marker-sketch--angular",
@@ -3595,7 +3867,9 @@
     "family_id": "marker-sketch",
     "family_name": "马克笔速写",
     "variant_of": "marker-sketch",
-    "catalogue_number": "137"
+    "catalogue_number": "137",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "marker-sketch--vignette",
@@ -3621,7 +3895,9 @@
     "family_id": "marker-sketch",
     "family_name": "马克笔速写",
     "variant_of": "marker-sketch",
-    "catalogue_number": "138"
+    "catalogue_number": "138",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "chalk-board--gesture",
@@ -3647,7 +3923,9 @@
     "family_id": "chalk-board",
     "family_name": "粉笔黑板",
     "variant_of": "chalk-board",
-    "catalogue_number": "139"
+    "catalogue_number": "139",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "chalk-board--sparse",
@@ -3673,7 +3951,9 @@
     "family_id": "chalk-board",
     "family_name": "粉笔黑板",
     "variant_of": "chalk-board",
-    "catalogue_number": "140"
+    "catalogue_number": "140",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "chalk-board--contour",
@@ -3699,7 +3979,9 @@
     "family_id": "chalk-board",
     "family_name": "粉笔黑板",
     "variant_of": "chalk-board",
-    "catalogue_number": "141"
+    "catalogue_number": "141",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "chalk-board--detail",
@@ -3725,7 +4007,9 @@
     "family_id": "chalk-board",
     "family_name": "粉笔黑板",
     "variant_of": "chalk-board",
-    "catalogue_number": "142"
+    "catalogue_number": "142",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "chalk-board--rhythm",
@@ -3751,7 +4035,9 @@
     "family_id": "chalk-board",
     "family_name": "粉笔黑板",
     "variant_of": "chalk-board",
-    "catalogue_number": "143"
+    "catalogue_number": "143",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "chalk-board--angular",
@@ -3777,7 +4063,9 @@
     "family_id": "chalk-board",
     "family_name": "粉笔黑板",
     "variant_of": "chalk-board",
-    "catalogue_number": "144"
+    "catalogue_number": "144",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "chalk-board--vignette",
@@ -3803,7 +4091,9 @@
     "family_id": "chalk-board",
     "family_name": "粉笔黑板",
     "variant_of": "chalk-board",
-    "catalogue_number": "145"
+    "catalogue_number": "145",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "stipple-ink--gesture",
@@ -3829,7 +4119,9 @@
     "family_id": "stipple-ink",
     "family_name": "点描墨画",
     "variant_of": "stipple-ink",
-    "catalogue_number": "146"
+    "catalogue_number": "146",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "stipple-ink--sparse",
@@ -3855,7 +4147,9 @@
     "family_id": "stipple-ink",
     "family_name": "点描墨画",
     "variant_of": "stipple-ink",
-    "catalogue_number": "147"
+    "catalogue_number": "147",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "stipple-ink--contour",
@@ -3881,7 +4175,9 @@
     "family_id": "stipple-ink",
     "family_name": "点描墨画",
     "variant_of": "stipple-ink",
-    "catalogue_number": "148"
+    "catalogue_number": "148",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "stipple-ink--detail",
@@ -3907,7 +4203,9 @@
     "family_id": "stipple-ink",
     "family_name": "点描墨画",
     "variant_of": "stipple-ink",
-    "catalogue_number": "149"
+    "catalogue_number": "149",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "stipple-ink--rhythm",
@@ -3933,7 +4231,9 @@
     "family_id": "stipple-ink",
     "family_name": "点描墨画",
     "variant_of": "stipple-ink",
-    "catalogue_number": "150"
+    "catalogue_number": "150",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "stipple-ink--angular",
@@ -3959,7 +4259,9 @@
     "family_id": "stipple-ink",
     "family_name": "点描墨画",
     "variant_of": "stipple-ink",
-    "catalogue_number": "151"
+    "catalogue_number": "151",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "stipple-ink--vignette",
@@ -3985,7 +4287,9 @@
     "family_id": "stipple-ink",
     "family_name": "点描墨画",
     "variant_of": "stipple-ink",
-    "catalogue_number": "152"
+    "catalogue_number": "152",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "woodcut--bold",
@@ -4011,7 +4315,9 @@
     "family_id": "woodcut",
     "family_name": "黑白木刻",
     "variant_of": "woodcut",
-    "catalogue_number": "153"
+    "catalogue_number": "153",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "woodcut--fine",
@@ -4037,7 +4343,9 @@
     "family_id": "woodcut",
     "family_name": "黑白木刻",
     "variant_of": "woodcut",
-    "catalogue_number": "154"
+    "catalogue_number": "154",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "woodcut--negative",
@@ -4063,7 +4371,9 @@
     "family_id": "woodcut",
     "family_name": "黑白木刻",
     "variant_of": "woodcut",
-    "catalogue_number": "155"
+    "catalogue_number": "155",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "woodcut--folk",
@@ -4089,7 +4399,9 @@
     "family_id": "woodcut",
     "family_name": "黑白木刻",
     "variant_of": "woodcut",
-    "catalogue_number": "156"
+    "catalogue_number": "156",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "woodcut--editorial",
@@ -4115,7 +4427,9 @@
     "family_id": "woodcut",
     "family_name": "黑白木刻",
     "variant_of": "woodcut",
-    "catalogue_number": "157"
+    "catalogue_number": "157",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "woodcut--compact",
@@ -4141,7 +4455,9 @@
     "family_id": "woodcut",
     "family_name": "黑白木刻",
     "variant_of": "woodcut",
-    "catalogue_number": "158"
+    "catalogue_number": "158",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "woodcut--rhythmic",
@@ -4167,7 +4483,9 @@
     "family_id": "woodcut",
     "family_name": "黑白木刻",
     "variant_of": "woodcut",
-    "catalogue_number": "159"
+    "catalogue_number": "159",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "linocut-color--bold",
@@ -4193,7 +4511,9 @@
     "family_id": "linocut-color",
     "family_name": "彩色油毡版画",
     "variant_of": "linocut-color",
-    "catalogue_number": "160"
+    "catalogue_number": "160",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "linocut-color--fine",
@@ -4219,7 +4539,9 @@
     "family_id": "linocut-color",
     "family_name": "彩色油毡版画",
     "variant_of": "linocut-color",
-    "catalogue_number": "161"
+    "catalogue_number": "161",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "linocut-color--negative",
@@ -4245,7 +4567,9 @@
     "family_id": "linocut-color",
     "family_name": "彩色油毡版画",
     "variant_of": "linocut-color",
-    "catalogue_number": "162"
+    "catalogue_number": "162",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "linocut-color--folk",
@@ -4271,7 +4595,9 @@
     "family_id": "linocut-color",
     "family_name": "彩色油毡版画",
     "variant_of": "linocut-color",
-    "catalogue_number": "163"
+    "catalogue_number": "163",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "linocut-color--editorial",
@@ -4297,7 +4623,9 @@
     "family_id": "linocut-color",
     "family_name": "彩色油毡版画",
     "variant_of": "linocut-color",
-    "catalogue_number": "164"
+    "catalogue_number": "164",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "linocut-color--compact",
@@ -4323,7 +4651,9 @@
     "family_id": "linocut-color",
     "family_name": "彩色油毡版画",
     "variant_of": "linocut-color",
-    "catalogue_number": "165"
+    "catalogue_number": "165",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "linocut-color--rhythmic",
@@ -4349,7 +4679,9 @@
     "family_id": "linocut-color",
     "family_name": "彩色油毡版画",
     "variant_of": "linocut-color",
-    "catalogue_number": "166"
+    "catalogue_number": "166",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "copper-etching--bold",
@@ -4375,7 +4707,9 @@
     "family_id": "copper-etching",
     "family_name": "铜版蚀刻",
     "variant_of": "copper-etching",
-    "catalogue_number": "167"
+    "catalogue_number": "167",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "copper-etching--fine",
@@ -4401,7 +4735,9 @@
     "family_id": "copper-etching",
     "family_name": "铜版蚀刻",
     "variant_of": "copper-etching",
-    "catalogue_number": "168"
+    "catalogue_number": "168",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "copper-etching--negative",
@@ -4427,7 +4763,9 @@
     "family_id": "copper-etching",
     "family_name": "铜版蚀刻",
     "variant_of": "copper-etching",
-    "catalogue_number": "169"
+    "catalogue_number": "169",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "copper-etching--folk",
@@ -4453,7 +4791,9 @@
     "family_id": "copper-etching",
     "family_name": "铜版蚀刻",
     "variant_of": "copper-etching",
-    "catalogue_number": "170"
+    "catalogue_number": "170",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "copper-etching--editorial",
@@ -4479,7 +4819,9 @@
     "family_id": "copper-etching",
     "family_name": "铜版蚀刻",
     "variant_of": "copper-etching",
-    "catalogue_number": "171"
+    "catalogue_number": "171",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "copper-etching--compact",
@@ -4505,7 +4847,9 @@
     "family_id": "copper-etching",
     "family_name": "铜版蚀刻",
     "variant_of": "copper-etching",
-    "catalogue_number": "172"
+    "catalogue_number": "172",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "copper-etching--rhythmic",
@@ -4531,7 +4875,9 @@
     "family_id": "copper-etching",
     "family_name": "铜版蚀刻",
     "variant_of": "copper-etching",
-    "catalogue_number": "173"
+    "catalogue_number": "173",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "screenprint--bold",
@@ -4557,7 +4903,9 @@
     "family_id": "screenprint",
     "family_name": "丝网印刷",
     "variant_of": "screenprint",
-    "catalogue_number": "174"
+    "catalogue_number": "174",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "screenprint--fine",
@@ -4583,7 +4931,9 @@
     "family_id": "screenprint",
     "family_name": "丝网印刷",
     "variant_of": "screenprint",
-    "catalogue_number": "175"
+    "catalogue_number": "175",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "screenprint--negative",
@@ -4609,7 +4959,9 @@
     "family_id": "screenprint",
     "family_name": "丝网印刷",
     "variant_of": "screenprint",
-    "catalogue_number": "176"
+    "catalogue_number": "176",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "screenprint--folk",
@@ -4635,7 +4987,9 @@
     "family_id": "screenprint",
     "family_name": "丝网印刷",
     "variant_of": "screenprint",
-    "catalogue_number": "177"
+    "catalogue_number": "177",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "screenprint--editorial",
@@ -4661,7 +5015,9 @@
     "family_id": "screenprint",
     "family_name": "丝网印刷",
     "variant_of": "screenprint",
-    "catalogue_number": "178"
+    "catalogue_number": "178",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "screenprint--compact",
@@ -4687,7 +5043,9 @@
     "family_id": "screenprint",
     "family_name": "丝网印刷",
     "variant_of": "screenprint",
-    "catalogue_number": "179"
+    "catalogue_number": "179",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "screenprint--rhythmic",
@@ -4713,7 +5071,9 @@
     "family_id": "screenprint",
     "family_name": "丝网印刷",
     "variant_of": "screenprint",
-    "catalogue_number": "180"
+    "catalogue_number": "180",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "cyanotype--bold",
@@ -4739,7 +5099,9 @@
     "family_id": "cyanotype",
     "family_name": "蓝晒影像",
     "variant_of": "cyanotype",
-    "catalogue_number": "181"
+    "catalogue_number": "181",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "cyanotype--fine",
@@ -4765,7 +5127,9 @@
     "family_id": "cyanotype",
     "family_name": "蓝晒影像",
     "variant_of": "cyanotype",
-    "catalogue_number": "182"
+    "catalogue_number": "182",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "cyanotype--negative",
@@ -4791,7 +5155,9 @@
     "family_id": "cyanotype",
     "family_name": "蓝晒影像",
     "variant_of": "cyanotype",
-    "catalogue_number": "183"
+    "catalogue_number": "183",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "cyanotype--folk",
@@ -4817,7 +5183,9 @@
     "family_id": "cyanotype",
     "family_name": "蓝晒影像",
     "variant_of": "cyanotype",
-    "catalogue_number": "184"
+    "catalogue_number": "184",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "cyanotype--editorial",
@@ -4843,7 +5211,9 @@
     "family_id": "cyanotype",
     "family_name": "蓝晒影像",
     "variant_of": "cyanotype",
-    "catalogue_number": "185"
+    "catalogue_number": "185",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "cyanotype--compact",
@@ -4869,7 +5239,9 @@
     "family_id": "cyanotype",
     "family_name": "蓝晒影像",
     "variant_of": "cyanotype",
-    "catalogue_number": "186"
+    "catalogue_number": "186",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "rubber-stamp--bold",
@@ -4895,7 +5267,9 @@
     "family_id": "rubber-stamp",
     "family_name": "橡皮章",
     "variant_of": "rubber-stamp",
-    "catalogue_number": "187"
+    "catalogue_number": "187",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "rubber-stamp--fine",
@@ -4921,7 +5295,9 @@
     "family_id": "rubber-stamp",
     "family_name": "橡皮章",
     "variant_of": "rubber-stamp",
-    "catalogue_number": "188"
+    "catalogue_number": "188",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "rubber-stamp--negative",
@@ -4947,7 +5323,9 @@
     "family_id": "rubber-stamp",
     "family_name": "橡皮章",
     "variant_of": "rubber-stamp",
-    "catalogue_number": "189"
+    "catalogue_number": "189",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "rubber-stamp--folk",
@@ -4973,7 +5351,9 @@
     "family_id": "rubber-stamp",
     "family_name": "橡皮章",
     "variant_of": "rubber-stamp",
-    "catalogue_number": "190"
+    "catalogue_number": "190",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "rubber-stamp--editorial",
@@ -4999,7 +5379,9 @@
     "family_id": "rubber-stamp",
     "family_name": "橡皮章",
     "variant_of": "rubber-stamp",
-    "catalogue_number": "191"
+    "catalogue_number": "191",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "rubber-stamp--compact",
@@ -5025,7 +5407,9 @@
     "family_id": "rubber-stamp",
     "family_name": "橡皮章",
     "variant_of": "rubber-stamp",
-    "catalogue_number": "192"
+    "catalogue_number": "192",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "cut-paper--minimal",
@@ -5051,7 +5435,9 @@
     "family_id": "cut-paper",
     "family_name": "剪纸拼贴",
     "variant_of": "cut-paper",
-    "catalogue_number": "193"
+    "catalogue_number": "193",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "cut-paper--intricate",
@@ -5077,7 +5463,9 @@
     "family_id": "cut-paper",
     "family_name": "剪纸拼贴",
     "variant_of": "cut-paper",
-    "catalogue_number": "194"
+    "catalogue_number": "194",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "cut-paper--geometric",
@@ -5103,7 +5491,9 @@
     "family_id": "cut-paper",
     "family_name": "剪纸拼贴",
     "variant_of": "cut-paper",
-    "catalogue_number": "195"
+    "catalogue_number": "195",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "cut-paper--organic",
@@ -5129,7 +5519,9 @@
     "family_id": "cut-paper",
     "family_name": "剪纸拼贴",
     "variant_of": "cut-paper",
-    "catalogue_number": "196"
+    "catalogue_number": "196",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "cut-paper--vignette",
@@ -5155,7 +5547,9 @@
     "family_id": "cut-paper",
     "family_name": "剪纸拼贴",
     "variant_of": "cut-paper",
-    "catalogue_number": "197"
+    "catalogue_number": "197",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "cut-paper--silhouette",
@@ -5181,7 +5575,9 @@
     "family_id": "cut-paper",
     "family_name": "剪纸拼贴",
     "variant_of": "cut-paper",
-    "catalogue_number": "198"
+    "catalogue_number": "198",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "red-papercut--minimal",
@@ -5207,7 +5603,9 @@
     "family_id": "red-papercut",
     "family_name": "民俗剪纸",
     "variant_of": "red-papercut",
-    "catalogue_number": "199"
+    "catalogue_number": "199",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "red-papercut--intricate",
@@ -5233,7 +5631,9 @@
     "family_id": "red-papercut",
     "family_name": "民俗剪纸",
     "variant_of": "red-papercut",
-    "catalogue_number": "200"
+    "catalogue_number": "200",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "red-papercut--geometric",
@@ -5259,7 +5659,9 @@
     "family_id": "red-papercut",
     "family_name": "民俗剪纸",
     "variant_of": "red-papercut",
-    "catalogue_number": "201"
+    "catalogue_number": "201",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "red-papercut--organic",
@@ -5285,7 +5687,9 @@
     "family_id": "red-papercut",
     "family_name": "民俗剪纸",
     "variant_of": "red-papercut",
-    "catalogue_number": "202"
+    "catalogue_number": "202",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "red-papercut--vignette",
@@ -5311,7 +5715,9 @@
     "family_id": "red-papercut",
     "family_name": "民俗剪纸",
     "variant_of": "red-papercut",
-    "catalogue_number": "203"
+    "catalogue_number": "203",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "red-papercut--silhouette",
@@ -5337,7 +5743,9 @@
     "family_id": "red-papercut",
     "family_name": "民俗剪纸",
     "variant_of": "red-papercut",
-    "catalogue_number": "204"
+    "catalogue_number": "204",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "origami-scene--minimal",
@@ -5363,7 +5771,9 @@
     "family_id": "origami-scene",
     "family_name": "折纸场景",
     "variant_of": "origami-scene",
-    "catalogue_number": "205"
+    "catalogue_number": "205",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "origami-scene--intricate",
@@ -5389,7 +5799,9 @@
     "family_id": "origami-scene",
     "family_name": "折纸场景",
     "variant_of": "origami-scene",
-    "catalogue_number": "206"
+    "catalogue_number": "206",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "origami-scene--geometric",
@@ -5415,7 +5827,9 @@
     "family_id": "origami-scene",
     "family_name": "折纸场景",
     "variant_of": "origami-scene",
-    "catalogue_number": "207"
+    "catalogue_number": "207",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "origami-scene--organic",
@@ -5441,7 +5855,9 @@
     "family_id": "origami-scene",
     "family_name": "折纸场景",
     "variant_of": "origami-scene",
-    "catalogue_number": "208"
+    "catalogue_number": "208",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "origami-scene--vignette",
@@ -5467,7 +5883,9 @@
     "family_id": "origami-scene",
     "family_name": "折纸场景",
     "variant_of": "origami-scene",
-    "catalogue_number": "209"
+    "catalogue_number": "209",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "origami-scene--silhouette",
@@ -5493,7 +5911,9 @@
     "family_id": "origami-scene",
     "family_name": "折纸场景",
     "variant_of": "origami-scene",
-    "catalogue_number": "210"
+    "catalogue_number": "210",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "paper-quilling--minimal",
@@ -5519,7 +5939,9 @@
     "family_id": "paper-quilling",
     "family_name": "衍纸卷线",
     "variant_of": "paper-quilling",
-    "catalogue_number": "211"
+    "catalogue_number": "211",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "paper-quilling--intricate",
@@ -5545,7 +5967,9 @@
     "family_id": "paper-quilling",
     "family_name": "衍纸卷线",
     "variant_of": "paper-quilling",
-    "catalogue_number": "212"
+    "catalogue_number": "212",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "paper-quilling--geometric",
@@ -5571,7 +5995,9 @@
     "family_id": "paper-quilling",
     "family_name": "衍纸卷线",
     "variant_of": "paper-quilling",
-    "catalogue_number": "213"
+    "catalogue_number": "213",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "paper-quilling--organic",
@@ -5597,7 +6023,9 @@
     "family_id": "paper-quilling",
     "family_name": "衍纸卷线",
     "variant_of": "paper-quilling",
-    "catalogue_number": "214"
+    "catalogue_number": "214",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "paper-quilling--vignette",
@@ -5623,7 +6051,9 @@
     "family_id": "paper-quilling",
     "family_name": "衍纸卷线",
     "variant_of": "paper-quilling",
-    "catalogue_number": "215"
+    "catalogue_number": "215",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "paper-quilling--silhouette",
@@ -5649,7 +6079,9 @@
     "family_id": "paper-quilling",
     "family_name": "衍纸卷线",
     "variant_of": "paper-quilling",
-    "catalogue_number": "216"
+    "catalogue_number": "216",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "torn-collage--minimal",
@@ -5675,7 +6107,9 @@
     "family_id": "torn-collage",
     "family_name": "撕纸拼贴",
     "variant_of": "torn-collage",
-    "catalogue_number": "217"
+    "catalogue_number": "217",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "torn-collage--intricate",
@@ -5701,7 +6135,9 @@
     "family_id": "torn-collage",
     "family_name": "撕纸拼贴",
     "variant_of": "torn-collage",
-    "catalogue_number": "218"
+    "catalogue_number": "218",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "torn-collage--geometric",
@@ -5727,7 +6163,9 @@
     "family_id": "torn-collage",
     "family_name": "撕纸拼贴",
     "variant_of": "torn-collage",
-    "catalogue_number": "219"
+    "catalogue_number": "219",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "torn-collage--organic",
@@ -5753,7 +6191,9 @@
     "family_id": "torn-collage",
     "family_name": "撕纸拼贴",
     "variant_of": "torn-collage",
-    "catalogue_number": "220"
+    "catalogue_number": "220",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "torn-collage--vignette",
@@ -5779,7 +6219,9 @@
     "family_id": "torn-collage",
     "family_name": "撕纸拼贴",
     "variant_of": "torn-collage",
-    "catalogue_number": "221"
+    "catalogue_number": "221",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "torn-collage--silhouette",
@@ -5805,7 +6247,9 @@
     "family_id": "torn-collage",
     "family_name": "撕纸拼贴",
     "variant_of": "torn-collage",
-    "catalogue_number": "222"
+    "catalogue_number": "222",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "clay-miniature--minimal",
@@ -5831,7 +6275,9 @@
     "family_id": "clay-miniature",
     "family_name": "黏土微缩",
     "variant_of": "clay-miniature",
-    "catalogue_number": "223"
+    "catalogue_number": "223",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "clay-miniature--mini-world",
@@ -5857,7 +6303,9 @@
     "family_id": "clay-miniature",
     "family_name": "黏土微缩",
     "variant_of": "clay-miniature",
-    "catalogue_number": "224"
+    "catalogue_number": "224",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "clay-miniature--soft-form",
@@ -5883,7 +6331,9 @@
     "family_id": "clay-miniature",
     "family_name": "黏土微缩",
     "variant_of": "clay-miniature",
-    "catalogue_number": "225"
+    "catalogue_number": "225",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "clay-miniature--structured",
@@ -5909,7 +6359,9 @@
     "family_id": "clay-miniature",
     "family_name": "黏土微缩",
     "variant_of": "clay-miniature",
-    "catalogue_number": "226"
+    "catalogue_number": "226",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "clay-miniature--macro",
@@ -5935,7 +6387,9 @@
     "family_id": "clay-miniature",
     "family_name": "黏土微缩",
     "variant_of": "clay-miniature",
-    "catalogue_number": "227"
+    "catalogue_number": "227",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "clay-miniature--toy-scale",
@@ -5961,7 +6415,9 @@
     "family_id": "clay-miniature",
     "family_name": "黏土微缩",
     "variant_of": "clay-miniature",
-    "catalogue_number": "228"
+    "catalogue_number": "228",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "felt-craft--minimal",
@@ -5987,7 +6443,9 @@
     "family_id": "felt-craft",
     "family_name": "羊毛毡",
     "variant_of": "felt-craft",
-    "catalogue_number": "229"
+    "catalogue_number": "229",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "felt-craft--mini-world",
@@ -6013,7 +6471,9 @@
     "family_id": "felt-craft",
     "family_name": "羊毛毡",
     "variant_of": "felt-craft",
-    "catalogue_number": "230"
+    "catalogue_number": "230",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "felt-craft--soft-form",
@@ -6039,7 +6499,9 @@
     "family_id": "felt-craft",
     "family_name": "羊毛毡",
     "variant_of": "felt-craft",
-    "catalogue_number": "231"
+    "catalogue_number": "231",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "felt-craft--structured",
@@ -6065,7 +6527,9 @@
     "family_id": "felt-craft",
     "family_name": "羊毛毡",
     "variant_of": "felt-craft",
-    "catalogue_number": "232"
+    "catalogue_number": "232",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "felt-craft--macro",
@@ -6091,7 +6555,9 @@
     "family_id": "felt-craft",
     "family_name": "羊毛毡",
     "variant_of": "felt-craft",
-    "catalogue_number": "233"
+    "catalogue_number": "233",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "felt-craft--toy-scale",
@@ -6117,7 +6583,9 @@
     "family_id": "felt-craft",
     "family_name": "羊毛毡",
     "variant_of": "felt-craft",
-    "catalogue_number": "234"
+    "catalogue_number": "234",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "ceramic-miniature--minimal",
@@ -6143,7 +6611,9 @@
     "family_id": "ceramic-miniature",
     "family_name": "陶瓷微景",
     "variant_of": "ceramic-miniature",
-    "catalogue_number": "235"
+    "catalogue_number": "235",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "ceramic-miniature--mini-world",
@@ -6169,7 +6639,9 @@
     "family_id": "ceramic-miniature",
     "family_name": "陶瓷微景",
     "variant_of": "ceramic-miniature",
-    "catalogue_number": "236"
+    "catalogue_number": "236",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "ceramic-miniature--soft-form",
@@ -6195,7 +6667,9 @@
     "family_id": "ceramic-miniature",
     "family_name": "陶瓷微景",
     "variant_of": "ceramic-miniature",
-    "catalogue_number": "237"
+    "catalogue_number": "237",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "ceramic-miniature--structured",
@@ -6221,7 +6695,9 @@
     "family_id": "ceramic-miniature",
     "family_name": "陶瓷微景",
     "variant_of": "ceramic-miniature",
-    "catalogue_number": "238"
+    "catalogue_number": "238",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "ceramic-miniature--macro",
@@ -6247,7 +6723,9 @@
     "family_id": "ceramic-miniature",
     "family_name": "陶瓷微景",
     "variant_of": "ceramic-miniature",
-    "catalogue_number": "239"
+    "catalogue_number": "239",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "ceramic-miniature--toy-scale",
@@ -6273,7 +6751,9 @@
     "family_id": "ceramic-miniature",
     "family_name": "陶瓷微景",
     "variant_of": "ceramic-miniature",
-    "catalogue_number": "240"
+    "catalogue_number": "240",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "wooden-toy--minimal",
@@ -6299,7 +6779,9 @@
     "family_id": "wooden-toy",
     "family_name": "木玩具",
     "variant_of": "wooden-toy",
-    "catalogue_number": "241"
+    "catalogue_number": "241",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "wooden-toy--mini-world",
@@ -6325,7 +6807,9 @@
     "family_id": "wooden-toy",
     "family_name": "木玩具",
     "variant_of": "wooden-toy",
-    "catalogue_number": "242"
+    "catalogue_number": "242",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "wooden-toy--soft-form",
@@ -6351,7 +6835,9 @@
     "family_id": "wooden-toy",
     "family_name": "木玩具",
     "variant_of": "wooden-toy",
-    "catalogue_number": "243"
+    "catalogue_number": "243",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "wooden-toy--structured",
@@ -6377,7 +6863,9 @@
     "family_id": "wooden-toy",
     "family_name": "木玩具",
     "variant_of": "wooden-toy",
-    "catalogue_number": "244"
+    "catalogue_number": "244",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "wooden-toy--macro",
@@ -6403,7 +6891,9 @@
     "family_id": "wooden-toy",
     "family_name": "木玩具",
     "variant_of": "wooden-toy",
-    "catalogue_number": "245"
+    "catalogue_number": "245",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "wooden-toy--toy-scale",
@@ -6429,7 +6919,9 @@
     "family_id": "wooden-toy",
     "family_name": "木玩具",
     "variant_of": "wooden-toy",
-    "catalogue_number": "246"
+    "catalogue_number": "246",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "low-poly--minimal",
@@ -6455,7 +6947,9 @@
     "family_id": "low-poly",
     "family_name": "低多边形",
     "variant_of": "low-poly",
-    "catalogue_number": "247"
+    "catalogue_number": "247",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "low-poly--mini-world",
@@ -6481,7 +6975,9 @@
     "family_id": "low-poly",
     "family_name": "低多边形",
     "variant_of": "low-poly",
-    "catalogue_number": "248"
+    "catalogue_number": "248",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "low-poly--soft-form",
@@ -6507,7 +7003,9 @@
     "family_id": "low-poly",
     "family_name": "低多边形",
     "variant_of": "low-poly",
-    "catalogue_number": "249"
+    "catalogue_number": "249",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "low-poly--structured",
@@ -6533,7 +7031,9 @@
     "family_id": "low-poly",
     "family_name": "低多边形",
     "variant_of": "low-poly",
-    "catalogue_number": "250"
+    "catalogue_number": "250",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "low-poly--macro",
@@ -6559,7 +7059,9 @@
     "family_id": "low-poly",
     "family_name": "低多边形",
     "variant_of": "low-poly",
-    "catalogue_number": "251"
+    "catalogue_number": "251",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "low-poly--toy-scale",
@@ -6585,7 +7087,9 @@
     "family_id": "low-poly",
     "family_name": "低多边形",
     "variant_of": "low-poly",
-    "catalogue_number": "252"
+    "catalogue_number": "252",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "isometric--minimal",
@@ -6611,7 +7115,9 @@
     "family_id": "isometric",
     "family_name": "等距几何",
     "variant_of": "isometric",
-    "catalogue_number": "253"
+    "catalogue_number": "253",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "isometric--modular",
@@ -6637,7 +7143,9 @@
     "family_id": "isometric",
     "family_name": "等距几何",
     "variant_of": "isometric",
-    "catalogue_number": "254"
+    "catalogue_number": "254",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "isometric--negative",
@@ -6663,7 +7171,9 @@
     "family_id": "isometric",
     "family_name": "等距几何",
     "variant_of": "isometric",
-    "catalogue_number": "255"
+    "catalogue_number": "255",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "isometric--dynamic",
@@ -6689,7 +7199,9 @@
     "family_id": "isometric",
     "family_name": "等距几何",
     "variant_of": "isometric",
-    "catalogue_number": "256"
+    "catalogue_number": "256",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "isometric--balanced",
@@ -6715,7 +7227,9 @@
     "family_id": "isometric",
     "family_name": "等距几何",
     "variant_of": "isometric",
-    "catalogue_number": "257"
+    "catalogue_number": "257",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "isometric--nested",
@@ -6741,7 +7255,9 @@
     "family_id": "isometric",
     "family_name": "等距几何",
     "variant_of": "isometric",
-    "catalogue_number": "258"
+    "catalogue_number": "258",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "flat-geometric--minimal",
@@ -6767,7 +7283,9 @@
     "family_id": "flat-geometric",
     "family_name": "平面几何",
     "variant_of": "flat-geometric",
-    "catalogue_number": "259"
+    "catalogue_number": "259",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "flat-geometric--modular",
@@ -6793,7 +7311,9 @@
     "family_id": "flat-geometric",
     "family_name": "平面几何",
     "variant_of": "flat-geometric",
-    "catalogue_number": "260"
+    "catalogue_number": "260",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "flat-geometric--negative",
@@ -6819,7 +7339,9 @@
     "family_id": "flat-geometric",
     "family_name": "平面几何",
     "variant_of": "flat-geometric",
-    "catalogue_number": "261"
+    "catalogue_number": "261",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "flat-geometric--dynamic",
@@ -6845,7 +7367,9 @@
     "family_id": "flat-geometric",
     "family_name": "平面几何",
     "variant_of": "flat-geometric",
-    "catalogue_number": "262"
+    "catalogue_number": "262",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "flat-geometric--balanced",
@@ -6871,7 +7395,9 @@
     "family_id": "flat-geometric",
     "family_name": "平面几何",
     "variant_of": "flat-geometric",
-    "catalogue_number": "263"
+    "catalogue_number": "263",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "flat-geometric--nested",
@@ -6897,7 +7423,9 @@
     "family_id": "flat-geometric",
     "family_name": "平面几何",
     "variant_of": "flat-geometric",
-    "catalogue_number": "264"
+    "catalogue_number": "264",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "bauhaus-poster--minimal",
@@ -6923,7 +7451,9 @@
     "family_id": "bauhaus-poster",
     "family_name": "包豪斯几何海报",
     "variant_of": "bauhaus-poster",
-    "catalogue_number": "265"
+    "catalogue_number": "265",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "bauhaus-poster--modular",
@@ -6949,7 +7479,9 @@
     "family_id": "bauhaus-poster",
     "family_name": "包豪斯几何海报",
     "variant_of": "bauhaus-poster",
-    "catalogue_number": "266"
+    "catalogue_number": "266",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "bauhaus-poster--negative",
@@ -6975,7 +7507,9 @@
     "family_id": "bauhaus-poster",
     "family_name": "包豪斯几何海报",
     "variant_of": "bauhaus-poster",
-    "catalogue_number": "267"
+    "catalogue_number": "267",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "bauhaus-poster--dynamic",
@@ -7001,7 +7535,9 @@
     "family_id": "bauhaus-poster",
     "family_name": "包豪斯几何海报",
     "variant_of": "bauhaus-poster",
-    "catalogue_number": "268"
+    "catalogue_number": "268",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "bauhaus-poster--balanced",
@@ -7027,7 +7563,9 @@
     "family_id": "bauhaus-poster",
     "family_name": "包豪斯几何海报",
     "variant_of": "bauhaus-poster",
-    "catalogue_number": "269"
+    "catalogue_number": "269",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "bauhaus-poster--nested",
@@ -7053,7 +7591,9 @@
     "family_id": "bauhaus-poster",
     "family_name": "包豪斯几何海报",
     "variant_of": "bauhaus-poster",
-    "catalogue_number": "270"
+    "catalogue_number": "270",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "pixel-art--iconic",
@@ -7079,7 +7619,9 @@
     "family_id": "pixel-art",
     "family_name": "像素插画",
     "variant_of": "pixel-art",
-    "catalogue_number": "271"
+    "catalogue_number": "271",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "pixel-art--narrative",
@@ -7105,7 +7647,9 @@
     "family_id": "pixel-art",
     "family_name": "像素插画",
     "variant_of": "pixel-art",
-    "catalogue_number": "272"
+    "catalogue_number": "272",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "pixel-art--graphic",
@@ -7131,7 +7675,9 @@
     "family_id": "pixel-art",
     "family_name": "像素插画",
     "variant_of": "pixel-art",
-    "catalogue_number": "273"
+    "catalogue_number": "273",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "pixel-art--dynamic",
@@ -7157,7 +7703,9 @@
     "family_id": "pixel-art",
     "family_name": "像素插画",
     "variant_of": "pixel-art",
-    "catalogue_number": "274"
+    "catalogue_number": "274",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "pixel-art--negative",
@@ -7183,7 +7731,9 @@
     "family_id": "pixel-art",
     "family_name": "像素插画",
     "variant_of": "pixel-art",
-    "catalogue_number": "275"
+    "catalogue_number": "275",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "pixel-art--detail",
@@ -7209,7 +7759,9 @@
     "family_id": "pixel-art",
     "family_name": "像素插画",
     "variant_of": "pixel-art",
-    "catalogue_number": "276"
+    "catalogue_number": "276",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "halftone-comic--iconic",
@@ -7235,7 +7787,9 @@
     "family_id": "halftone-comic",
     "family_name": "网点漫画",
     "variant_of": "halftone-comic",
-    "catalogue_number": "277"
+    "catalogue_number": "277",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "halftone-comic--narrative",
@@ -7261,7 +7815,9 @@
     "family_id": "halftone-comic",
     "family_name": "网点漫画",
     "variant_of": "halftone-comic",
-    "catalogue_number": "278"
+    "catalogue_number": "278",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "halftone-comic--graphic",
@@ -7287,7 +7843,9 @@
     "family_id": "halftone-comic",
     "family_name": "网点漫画",
     "variant_of": "halftone-comic",
-    "catalogue_number": "279"
+    "catalogue_number": "279",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "halftone-comic--dynamic",
@@ -7313,7 +7871,9 @@
     "family_id": "halftone-comic",
     "family_name": "网点漫画",
     "variant_of": "halftone-comic",
-    "catalogue_number": "280"
+    "catalogue_number": "280",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "halftone-comic--negative",
@@ -7339,7 +7899,9 @@
     "family_id": "halftone-comic",
     "family_name": "网点漫画",
     "variant_of": "halftone-comic",
-    "catalogue_number": "281"
+    "catalogue_number": "281",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "halftone-comic--detail",
@@ -7365,7 +7927,9 @@
     "family_id": "halftone-comic",
     "family_name": "网点漫画",
     "variant_of": "halftone-comic",
-    "catalogue_number": "282"
+    "catalogue_number": "282",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "retro-travel--iconic",
@@ -7391,7 +7955,9 @@
     "family_id": "retro-travel",
     "family_name": "复古旅行海报",
     "variant_of": "retro-travel",
-    "catalogue_number": "283"
+    "catalogue_number": "283",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "retro-travel--narrative",
@@ -7417,7 +7983,9 @@
     "family_id": "retro-travel",
     "family_name": "复古旅行海报",
     "variant_of": "retro-travel",
-    "catalogue_number": "284"
+    "catalogue_number": "284",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "retro-travel--graphic",
@@ -7443,7 +8011,9 @@
     "family_id": "retro-travel",
     "family_name": "复古旅行海报",
     "variant_of": "retro-travel",
-    "catalogue_number": "285"
+    "catalogue_number": "285",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "retro-travel--dynamic",
@@ -7469,7 +8039,9 @@
     "family_id": "retro-travel",
     "family_name": "复古旅行海报",
     "variant_of": "retro-travel",
-    "catalogue_number": "286"
+    "catalogue_number": "286",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "retro-travel--negative",
@@ -7495,7 +8067,9 @@
     "family_id": "retro-travel",
     "family_name": "复古旅行海报",
     "variant_of": "retro-travel",
-    "catalogue_number": "287"
+    "catalogue_number": "287",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "retro-travel--detail",
@@ -7521,7 +8095,9 @@
     "family_id": "retro-travel",
     "family_name": "复古旅行海报",
     "variant_of": "retro-travel",
-    "catalogue_number": "288"
+    "catalogue_number": "288",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "botanical-plate--contour",
@@ -7547,7 +8123,9 @@
     "family_id": "botanical-plate",
     "family_name": "植物图谱",
     "variant_of": "botanical-plate",
-    "catalogue_number": "289"
+    "catalogue_number": "289",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "botanical-plate--detail",
@@ -7573,7 +8151,9 @@
     "family_id": "botanical-plate",
     "family_name": "植物图谱",
     "variant_of": "botanical-plate",
-    "catalogue_number": "290"
+    "catalogue_number": "290",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "botanical-plate--isolated",
@@ -7599,7 +8179,9 @@
     "family_id": "botanical-plate",
     "family_name": "植物图谱",
     "variant_of": "botanical-plate",
-    "catalogue_number": "291"
+    "catalogue_number": "291",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "botanical-plate--field",
@@ -7625,7 +8207,9 @@
     "family_id": "botanical-plate",
     "family_name": "植物图谱",
     "variant_of": "botanical-plate",
-    "catalogue_number": "292"
+    "catalogue_number": "292",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "botanical-plate--light",
@@ -7651,7 +8235,9 @@
     "family_id": "botanical-plate",
     "family_name": "植物图谱",
     "variant_of": "botanical-plate",
-    "catalogue_number": "293"
+    "catalogue_number": "293",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "botanical-plate--composition",
@@ -7677,7 +8263,9 @@
     "family_id": "botanical-plate",
     "family_name": "植物图谱",
     "variant_of": "botanical-plate",
-    "catalogue_number": "294"
+    "catalogue_number": "294",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "embroidered--minimal",
@@ -7703,7 +8291,9 @@
     "family_id": "embroidered",
     "family_name": "刺绣织物",
     "variant_of": "embroidered",
-    "catalogue_number": "295"
+    "catalogue_number": "295",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "embroidered--dense",
@@ -7729,7 +8319,9 @@
     "family_id": "embroidered",
     "family_name": "刺绣织物",
     "variant_of": "embroidered",
-    "catalogue_number": "296"
+    "catalogue_number": "296",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "embroidered--outline",
@@ -7755,7 +8347,9 @@
     "family_id": "embroidered",
     "family_name": "刺绣织物",
     "variant_of": "embroidered",
-    "catalogue_number": "297"
+    "catalogue_number": "297",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "embroidered--patch",
@@ -7781,7 +8375,9 @@
     "family_id": "embroidered",
     "family_name": "刺绣织物",
     "variant_of": "embroidered",
-    "catalogue_number": "298"
+    "catalogue_number": "298",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "embroidered--relief",
@@ -7807,7 +8403,9 @@
     "family_id": "embroidered",
     "family_name": "刺绣织物",
     "variant_of": "embroidered",
-    "catalogue_number": "299"
+    "catalogue_number": "299",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "embroidered--folk",
@@ -7833,7 +8431,9 @@
     "family_id": "embroidered",
     "family_name": "刺绣织物",
     "variant_of": "embroidered",
-    "catalogue_number": "300"
+    "catalogue_number": "300",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "paper-lightbox",
@@ -7859,7 +8459,9 @@
     "family_id": "paper-lightbox",
     "family_name": "纸雕灯箱",
     "variant_of": null,
-    "catalogue_number": "301"
+    "catalogue_number": "301",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "popup-book",
@@ -7885,7 +8487,9 @@
     "family_id": "popup-book",
     "family_name": "立体书场景",
     "variant_of": null,
-    "catalogue_number": "302"
+    "catalogue_number": "302",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "photo-doodle",
@@ -7911,7 +8515,9 @@
     "family_id": "photo-doodle",
     "family_name": "照片与涂鸦",
     "variant_of": null,
-    "catalogue_number": "303"
+    "catalogue_number": "303",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "zine-collage",
@@ -7937,7 +8543,9 @@
     "family_id": "zine-collage",
     "family_name": "杂志剪贴",
     "variant_of": null,
-    "catalogue_number": "304"
+    "catalogue_number": "304",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "dither-duotone",
@@ -7963,7 +8571,9 @@
     "family_id": "dither-duotone",
     "family_name": "双色抖动像素",
     "variant_of": null,
-    "catalogue_number": "305"
+    "catalogue_number": "305",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "ascii-mosaic",
@@ -7989,7 +8599,9 @@
     "family_id": "ascii-mosaic",
     "family_name": "字符肌理画",
     "variant_of": null,
-    "catalogue_number": "306"
+    "catalogue_number": "306",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "stained-glass",
@@ -8015,7 +8627,9 @@
     "family_id": "stained-glass",
     "family_name": "彩色玻璃镶嵌",
     "variant_of": null,
-    "catalogue_number": "307"
+    "catalogue_number": "307",
+    "image_width": 1254,
+    "image_height": 1254
   },
   {
     "id": "bubble-mosaic",
@@ -8041,6 +8655,8 @@
     "family_id": "bubble-mosaic",
     "family_name": "气泡马赛克",
     "variant_of": null,
-    "catalogue_number": "308"
+    "catalogue_number": "308",
+    "image_width": 1254,
+    "image_height": 1254
   }
 ]

@@ -27,6 +27,9 @@ def build():
                     preview = ImageOps.exif_transpose(img).convert('RGB')
                     preview.thumbnail((size, size))
                     preview.save(output, 'WEBP', quality=80, method=6)
+        # Use the encoded detail size: thumbnail rounding can change its ratio.
+        with Image.open(media / f'{style["id"]}-detail.webp') as detail:
+            style['image_width'], style['image_height'] = detail.size
         style['thumbnail'] = f'media/{style["id"]}-thumb.webp'
         style['image'] = f'media/{style["id"]}-detail.webp'
         sample = source.with_suffix('.json')

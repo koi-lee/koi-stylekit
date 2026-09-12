@@ -47,6 +47,8 @@ class CatalogueTests(unittest.TestCase):
                 self.assertTrue(style.get('image'))
                 data = (ROOT / 'wireframes' / style['image']).read_bytes()
                 self.assertEqual(data[:8], b'\x89PNG\r\n\x1a\n')
+                self.assertEqual((style['image_width'], style['image_height']),
+                                 struct.unpack('>II', data[16:24]))
                 offset = 8
                 last_type = None
                 while offset < len(data):
