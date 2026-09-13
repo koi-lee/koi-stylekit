@@ -1,0 +1,3390 @@
+[
+  {
+    "number": 1,
+    "id": "emotional-sketch",
+    "image": "assets/style-10-rain-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "decision": "square-list-viewport",
+    "reason": "列表取原图左侧1024x1024视窗，保留人物、猫、完整伞和脚下水面；详情仍显示完整1536x1024样图"
+  },
+  {
+    "number": 2,
+    "id": "colored-pencil-diary",
+    "image": "assets/yang-169-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 3,
+    "id": "duotone-print",
+    "image": "assets/yang-167-v1.png",
+    "size": [
+      1222,
+      1287
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 4,
+    "id": "layered-paper",
+    "image": "cases/interview-cards/paper.png",
+    "size": [
+      1672,
+      941
+    ],
+    "decision": "preserve",
+    "reason": "横向纸雕场景内容分布完整，不强裁成正方形"
+  },
+  {
+    "number": 5,
+    "id": "watercolor-wash",
+    "image": "assets/catalogue/watercolor-wash.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 6,
+    "id": "opaque-gouache",
+    "image": "assets/catalogue/opaque-gouache.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 7,
+    "id": "oil-impasto",
+    "image": "assets/catalogue/oil-impasto.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 8,
+    "id": "soft-pastel",
+    "image": "assets/catalogue/soft-pastel.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 9,
+    "id": "ink-wash",
+    "image": "assets/catalogue/ink-wash.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 10,
+    "id": "charcoal-study",
+    "image": "assets/catalogue/charcoal-study.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 11,
+    "id": "crayon-doodle",
+    "image": "assets/catalogue/crayon-doodle.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 12,
+    "id": "continuous-line",
+    "image": "assets/catalogue/continuous-line.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 13,
+    "id": "pen-hatching",
+    "image": "assets/catalogue/pen-hatching.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 14,
+    "id": "marker-sketch",
+    "image": "assets/catalogue/marker-sketch.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 15,
+    "id": "chalk-board",
+    "image": "assets/catalogue/chalk-board.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 16,
+    "id": "stipple-ink",
+    "image": "assets/catalogue/stipple-ink.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 17,
+    "id": "woodcut",
+    "image": "assets/catalogue/woodcut.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 18,
+    "id": "linocut-color",
+    "image": "assets/catalogue/linocut-color.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 19,
+    "id": "copper-etching",
+    "image": "assets/catalogue/copper-etching.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 20,
+    "id": "screenprint",
+    "image": "assets/catalogue/screenprint.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 21,
+    "id": "cyanotype",
+    "image": "assets/catalogue/cyanotype.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 22,
+    "id": "rubber-stamp",
+    "image": "assets/catalogue/rubber-stamp.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 23,
+    "id": "cut-paper",
+    "image": "assets/catalogue/cut-paper.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 24,
+    "id": "red-papercut",
+    "image": "assets/catalogue/red-papercut.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 25,
+    "id": "origami-scene",
+    "image": "assets/catalogue/origami-scene.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 26,
+    "id": "paper-quilling",
+    "image": "assets/catalogue/paper-quilling.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 27,
+    "id": "torn-collage",
+    "image": "assets/catalogue/torn-collage.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 28,
+    "id": "clay-miniature",
+    "image": "assets/catalogue/clay-miniature.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 29,
+    "id": "felt-craft",
+    "image": "assets/catalogue/felt-craft.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 30,
+    "id": "ceramic-miniature",
+    "image": "assets/catalogue/ceramic-miniature.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 31,
+    "id": "wooden-toy",
+    "image": "assets/catalogue/wooden-toy.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 32,
+    "id": "low-poly",
+    "image": "assets/catalogue/low-poly.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 33,
+    "id": "isometric",
+    "image": "assets/catalogue/isometric.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 34,
+    "id": "flat-geometric",
+    "image": "assets/catalogue/flat-geometric.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 35,
+    "id": "bauhaus-poster",
+    "image": "assets/catalogue/bauhaus-poster.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 36,
+    "id": "pixel-art",
+    "image": "assets/catalogue/pixel-art.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 37,
+    "id": "halftone-comic",
+    "image": "assets/catalogue/halftone-comic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 38,
+    "id": "retro-travel",
+    "image": "assets/catalogue/retro-travel.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 39,
+    "id": "botanical-plate",
+    "image": "assets/catalogue/botanical-plate.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 40,
+    "id": "embroidered",
+    "image": "assets/catalogue/embroidered.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 41,
+    "id": "emotional-sketch--gesture",
+    "image": "assets/catalogue/emotional-sketch--gesture.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 42,
+    "id": "emotional-sketch--sparse",
+    "image": "assets/catalogue/emotional-sketch--sparse.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 43,
+    "id": "emotional-sketch--contour",
+    "image": "assets/catalogue/emotional-sketch--contour.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 44,
+    "id": "emotional-sketch--detail",
+    "image": "assets/catalogue/emotional-sketch--detail.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 45,
+    "id": "emotional-sketch--rhythm",
+    "image": "assets/catalogue/emotional-sketch--rhythm.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 46,
+    "id": "emotional-sketch--angular",
+    "image": "assets/catalogue/emotional-sketch--angular.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 47,
+    "id": "emotional-sketch--vignette",
+    "image": "assets/catalogue/emotional-sketch--vignette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 48,
+    "id": "colored-pencil-diary--loose",
+    "image": "assets/catalogue/colored-pencil-diary--loose.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 49,
+    "id": "colored-pencil-diary--detailed",
+    "image": "assets/catalogue/colored-pencil-diary--detailed.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 50,
+    "id": "colored-pencil-diary--negative-space",
+    "image": "assets/catalogue/colored-pencil-diary--negative-space.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "经复核为negative-space留白构图变体，主体较小为用途设计，保留完整排字空间"
+  },
+  {
+    "number": 51,
+    "id": "colored-pencil-diary--silhouette",
+    "image": "assets/catalogue/colored-pencil-diary--silhouette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 52,
+    "id": "colored-pencil-diary--rhythmic",
+    "image": "assets/catalogue/colored-pencil-diary--rhythmic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 53,
+    "id": "colored-pencil-diary--close-study",
+    "image": "assets/catalogue/colored-pencil-diary--close-study.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 54,
+    "id": "colored-pencil-diary--airy",
+    "image": "assets/catalogue/colored-pencil-diary--airy.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 55,
+    "id": "duotone-print--bold",
+    "image": "assets/catalogue/duotone-print--bold.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 56,
+    "id": "duotone-print--fine",
+    "image": "assets/catalogue/duotone-print--fine.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 57,
+    "id": "duotone-print--negative",
+    "image": "assets/catalogue/duotone-print--negative.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 58,
+    "id": "duotone-print--folk",
+    "image": "assets/catalogue/duotone-print--folk.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 59,
+    "id": "duotone-print--editorial",
+    "image": "assets/catalogue/duotone-print--editorial.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 60,
+    "id": "duotone-print--compact",
+    "image": "assets/catalogue/duotone-print--compact.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 61,
+    "id": "duotone-print--rhythmic",
+    "image": "assets/catalogue/duotone-print--rhythmic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 62,
+    "id": "layered-paper--minimal",
+    "image": "assets/catalogue/layered-paper--minimal.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 63,
+    "id": "layered-paper--intricate",
+    "image": "assets/catalogue/layered-paper--intricate.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 64,
+    "id": "layered-paper--geometric",
+    "image": "assets/catalogue/layered-paper--geometric.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 65,
+    "id": "layered-paper--organic",
+    "image": "assets/catalogue/layered-paper--organic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 66,
+    "id": "layered-paper--vignette",
+    "image": "assets/catalogue/layered-paper--vignette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 67,
+    "id": "layered-paper--silhouette",
+    "image": "assets/catalogue/layered-paper--silhouette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 68,
+    "id": "layered-paper--ornamental",
+    "image": "assets/catalogue/layered-paper--ornamental.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 69,
+    "id": "watercolor-wash--loose",
+    "image": "assets/catalogue/watercolor-wash--loose.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 70,
+    "id": "watercolor-wash--detailed",
+    "image": "assets/catalogue/watercolor-wash--detailed.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 71,
+    "id": "watercolor-wash--negative-space",
+    "image": "assets/catalogue/watercolor-wash--negative-space.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "经复核为negative-space留白构图变体，主体较小为用途设计，保留完整排字空间"
+  },
+  {
+    "number": 72,
+    "id": "watercolor-wash--silhouette",
+    "image": "assets/catalogue/watercolor-wash--silhouette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 73,
+    "id": "watercolor-wash--rhythmic",
+    "image": "assets/catalogue/watercolor-wash--rhythmic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 74,
+    "id": "watercolor-wash--close-study",
+    "image": "assets/catalogue/watercolor-wash--close-study.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 75,
+    "id": "watercolor-wash--airy",
+    "image": "assets/catalogue/watercolor-wash--airy.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 76,
+    "id": "opaque-gouache--loose",
+    "image": "assets/catalogue/opaque-gouache--loose.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 77,
+    "id": "opaque-gouache--detailed",
+    "image": "assets/catalogue/opaque-gouache--detailed.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 78,
+    "id": "opaque-gouache--negative-space",
+    "image": "assets/catalogue/opaque-gouache--negative-space.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "经复核为negative-space留白构图变体，主体较小为用途设计，保留完整排字空间"
+  },
+  {
+    "number": 79,
+    "id": "opaque-gouache--silhouette",
+    "image": "assets/catalogue/opaque-gouache--silhouette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 80,
+    "id": "opaque-gouache--rhythmic",
+    "image": "assets/catalogue/opaque-gouache--rhythmic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 81,
+    "id": "opaque-gouache--close-study",
+    "image": "assets/catalogue/opaque-gouache--close-study.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 82,
+    "id": "opaque-gouache--airy",
+    "image": "assets/catalogue/opaque-gouache--airy.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 83,
+    "id": "oil-impasto--loose",
+    "image": "assets/catalogue/oil-impasto--loose.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 84,
+    "id": "oil-impasto--detailed",
+    "image": "assets/catalogue/oil-impasto--detailed.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 85,
+    "id": "oil-impasto--negative-space",
+    "image": "assets/catalogue/oil-impasto--negative-space.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "经复核为negative-space留白构图变体，主体较小为用途设计，保留完整排字空间"
+  },
+  {
+    "number": 86,
+    "id": "oil-impasto--silhouette",
+    "image": "assets/catalogue/oil-impasto--silhouette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 87,
+    "id": "oil-impasto--rhythmic",
+    "image": "assets/catalogue/oil-impasto--rhythmic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 88,
+    "id": "oil-impasto--close-study",
+    "image": "assets/catalogue/oil-impasto--close-study.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 89,
+    "id": "oil-impasto--airy",
+    "image": "assets/catalogue/oil-impasto--airy.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 90,
+    "id": "soft-pastel--loose",
+    "image": "assets/catalogue/soft-pastel--loose.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 91,
+    "id": "soft-pastel--detailed",
+    "image": "assets/catalogue/soft-pastel--detailed.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 92,
+    "id": "soft-pastel--negative-space",
+    "image": "assets/catalogue/soft-pastel--negative-space.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "经复核为negative-space留白构图变体，主体较小为用途设计，保留完整排字空间"
+  },
+  {
+    "number": 93,
+    "id": "soft-pastel--silhouette",
+    "image": "assets/catalogue/soft-pastel--silhouette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 94,
+    "id": "soft-pastel--rhythmic",
+    "image": "assets/catalogue/soft-pastel--rhythmic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 95,
+    "id": "soft-pastel--close-study",
+    "image": "assets/catalogue/soft-pastel--close-study.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 96,
+    "id": "soft-pastel--airy",
+    "image": "assets/catalogue/soft-pastel--airy.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 97,
+    "id": "ink-wash--loose",
+    "image": "assets/catalogue/ink-wash--loose.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 98,
+    "id": "ink-wash--detailed",
+    "image": "assets/catalogue/ink-wash--detailed.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 99,
+    "id": "ink-wash--negative-space",
+    "image": "assets/catalogue/ink-wash--negative-space.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 100,
+    "id": "ink-wash--silhouette",
+    "image": "assets/catalogue/ink-wash--silhouette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 101,
+    "id": "ink-wash--rhythmic",
+    "image": "assets/catalogue/ink-wash--rhythmic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 102,
+    "id": "ink-wash--close-study",
+    "image": "assets/catalogue/ink-wash--close-study.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 103,
+    "id": "ink-wash--airy",
+    "image": "assets/catalogue/ink-wash--airy.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 104,
+    "id": "charcoal-study--loose",
+    "image": "assets/catalogue/charcoal-study--loose.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 105,
+    "id": "charcoal-study--detailed",
+    "image": "assets/catalogue/charcoal-study--detailed.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 106,
+    "id": "charcoal-study--negative-space",
+    "image": "assets/catalogue/charcoal-study--negative-space.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 107,
+    "id": "charcoal-study--silhouette",
+    "image": "assets/catalogue/charcoal-study--silhouette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 108,
+    "id": "charcoal-study--rhythmic",
+    "image": "assets/catalogue/charcoal-study--rhythmic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 109,
+    "id": "charcoal-study--close-study",
+    "image": "assets/catalogue/charcoal-study--close-study.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 110,
+    "id": "charcoal-study--airy",
+    "image": "assets/catalogue/charcoal-study--airy.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 111,
+    "id": "crayon-doodle--gesture",
+    "image": "assets/catalogue/crayon-doodle--gesture.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 112,
+    "id": "crayon-doodle--sparse",
+    "image": "assets/catalogue/crayon-doodle--sparse.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 113,
+    "id": "crayon-doodle--contour",
+    "image": "assets/catalogue/crayon-doodle--contour.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 114,
+    "id": "crayon-doodle--detail",
+    "image": "assets/catalogue/crayon-doodle--detail.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 115,
+    "id": "crayon-doodle--rhythm",
+    "image": "assets/catalogue/crayon-doodle--rhythm.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 116,
+    "id": "crayon-doodle--angular",
+    "image": "assets/catalogue/crayon-doodle--angular.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 117,
+    "id": "crayon-doodle--vignette",
+    "image": "assets/catalogue/crayon-doodle--vignette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 118,
+    "id": "continuous-line--gesture",
+    "image": "assets/catalogue/continuous-line--gesture.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 119,
+    "id": "continuous-line--sparse",
+    "image": "assets/catalogue/continuous-line--sparse.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 120,
+    "id": "continuous-line--contour",
+    "image": "assets/catalogue/continuous-line--contour.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 121,
+    "id": "continuous-line--detail",
+    "image": "assets/catalogue/continuous-line--detail.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 122,
+    "id": "continuous-line--rhythm",
+    "image": "assets/catalogue/continuous-line--rhythm.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 123,
+    "id": "continuous-line--angular",
+    "image": "assets/catalogue/continuous-line--angular.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 124,
+    "id": "continuous-line--vignette",
+    "image": "assets/catalogue/continuous-line--vignette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 125,
+    "id": "pen-hatching--gesture",
+    "image": "assets/catalogue/pen-hatching--gesture.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 126,
+    "id": "pen-hatching--sparse",
+    "image": "assets/catalogue/pen-hatching--sparse.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 127,
+    "id": "pen-hatching--contour",
+    "image": "assets/catalogue/pen-hatching--contour.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 128,
+    "id": "pen-hatching--detail",
+    "image": "assets/catalogue/pen-hatching--detail.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 129,
+    "id": "pen-hatching--rhythm",
+    "image": "assets/catalogue/pen-hatching--rhythm.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 130,
+    "id": "pen-hatching--angular",
+    "image": "assets/catalogue/pen-hatching--angular.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 131,
+    "id": "pen-hatching--vignette",
+    "image": "assets/catalogue/pen-hatching--vignette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 132,
+    "id": "marker-sketch--gesture",
+    "image": "assets/catalogue/marker-sketch--gesture.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 133,
+    "id": "marker-sketch--sparse",
+    "image": "assets/catalogue/marker-sketch--sparse.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 134,
+    "id": "marker-sketch--contour",
+    "image": "assets/catalogue/marker-sketch--contour.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 135,
+    "id": "marker-sketch--detail",
+    "image": "assets/catalogue/marker-sketch--detail.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 136,
+    "id": "marker-sketch--rhythm",
+    "image": "assets/catalogue/marker-sketch--rhythm.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 137,
+    "id": "marker-sketch--angular",
+    "image": "assets/catalogue/marker-sketch--angular.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 138,
+    "id": "marker-sketch--vignette",
+    "image": "assets/catalogue/marker-sketch--vignette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 139,
+    "id": "chalk-board--gesture",
+    "image": "assets/catalogue/chalk-board--gesture.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 140,
+    "id": "chalk-board--sparse",
+    "image": "assets/catalogue/chalk-board--sparse.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 141,
+    "id": "chalk-board--contour",
+    "image": "assets/catalogue/chalk-board--contour.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 142,
+    "id": "chalk-board--detail",
+    "image": "assets/catalogue/chalk-board--detail.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 143,
+    "id": "chalk-board--rhythm",
+    "image": "assets/catalogue/chalk-board--rhythm.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 144,
+    "id": "chalk-board--angular",
+    "image": "assets/catalogue/chalk-board--angular.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 145,
+    "id": "chalk-board--vignette",
+    "image": "assets/catalogue/chalk-board--vignette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 146,
+    "id": "stipple-ink--gesture",
+    "image": "assets/catalogue/stipple-ink--gesture.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 147,
+    "id": "stipple-ink--sparse",
+    "image": "assets/catalogue/stipple-ink--sparse.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 148,
+    "id": "stipple-ink--contour",
+    "image": "assets/catalogue/stipple-ink--contour.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 149,
+    "id": "stipple-ink--detail",
+    "image": "assets/catalogue/stipple-ink--detail.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 150,
+    "id": "stipple-ink--rhythm",
+    "image": "assets/catalogue/stipple-ink--rhythm.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 151,
+    "id": "stipple-ink--angular",
+    "image": "assets/catalogue/stipple-ink--angular.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 152,
+    "id": "stipple-ink--vignette",
+    "image": "assets/catalogue/stipple-ink--vignette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 153,
+    "id": "woodcut--bold",
+    "image": "assets/catalogue/woodcut--bold.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 154,
+    "id": "woodcut--fine",
+    "image": "assets/catalogue/woodcut--fine.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 155,
+    "id": "woodcut--negative",
+    "image": "assets/catalogue/woodcut--negative.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 156,
+    "id": "woodcut--folk",
+    "image": "assets/catalogue/woodcut--folk.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 157,
+    "id": "woodcut--editorial",
+    "image": "assets/catalogue/woodcut--editorial.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 158,
+    "id": "woodcut--compact",
+    "image": "assets/catalogue/woodcut--compact.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 159,
+    "id": "woodcut--rhythmic",
+    "image": "assets/catalogue/woodcut--rhythmic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 160,
+    "id": "linocut-color--bold",
+    "image": "assets/catalogue/linocut-color--bold.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 161,
+    "id": "linocut-color--fine",
+    "image": "assets/catalogue/linocut-color--fine.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 162,
+    "id": "linocut-color--negative",
+    "image": "assets/catalogue/linocut-color--negative.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 163,
+    "id": "linocut-color--folk",
+    "image": "assets/catalogue/linocut-color--folk.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 164,
+    "id": "linocut-color--editorial",
+    "image": "assets/catalogue/linocut-color--editorial.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 165,
+    "id": "linocut-color--compact",
+    "image": "assets/catalogue/linocut-color--compact.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 166,
+    "id": "linocut-color--rhythmic",
+    "image": "assets/catalogue/linocut-color--rhythmic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 167,
+    "id": "copper-etching--bold",
+    "image": "assets/catalogue/copper-etching--bold.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 168,
+    "id": "copper-etching--fine",
+    "image": "assets/catalogue/copper-etching--fine.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 169,
+    "id": "copper-etching--negative",
+    "image": "assets/catalogue/copper-etching--negative.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 170,
+    "id": "copper-etching--folk",
+    "image": "assets/catalogue/copper-etching--folk.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 171,
+    "id": "copper-etching--editorial",
+    "image": "assets/catalogue/copper-etching--editorial.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 172,
+    "id": "copper-etching--compact",
+    "image": "assets/catalogue/copper-etching--compact.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 173,
+    "id": "copper-etching--rhythmic",
+    "image": "assets/catalogue/copper-etching--rhythmic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 174,
+    "id": "screenprint--bold",
+    "image": "assets/catalogue/screenprint--bold.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 175,
+    "id": "screenprint--fine",
+    "image": "assets/catalogue/screenprint--fine.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 176,
+    "id": "screenprint--negative",
+    "image": "assets/catalogue/screenprint--negative.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 177,
+    "id": "screenprint--folk",
+    "image": "assets/catalogue/screenprint--folk.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 178,
+    "id": "screenprint--editorial",
+    "image": "assets/catalogue/screenprint--editorial.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 179,
+    "id": "screenprint--compact",
+    "image": "assets/catalogue/screenprint--compact.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 180,
+    "id": "screenprint--rhythmic",
+    "image": "assets/catalogue/screenprint--rhythmic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 181,
+    "id": "cyanotype--bold",
+    "image": "assets/catalogue/cyanotype--bold.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 182,
+    "id": "cyanotype--fine",
+    "image": "assets/catalogue/cyanotype--fine.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 183,
+    "id": "cyanotype--negative",
+    "image": "assets/catalogue/cyanotype--negative.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 184,
+    "id": "cyanotype--folk",
+    "image": "assets/catalogue/cyanotype--folk.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 185,
+    "id": "cyanotype--editorial",
+    "image": "assets/catalogue/cyanotype--editorial.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 186,
+    "id": "cyanotype--compact",
+    "image": "assets/catalogue/cyanotype--compact.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 187,
+    "id": "rubber-stamp--bold",
+    "image": "assets/catalogue/rubber-stamp--bold.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 188,
+    "id": "rubber-stamp--fine",
+    "image": "assets/catalogue/rubber-stamp--fine.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 189,
+    "id": "rubber-stamp--negative",
+    "image": "assets/catalogue/rubber-stamp--negative.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 190,
+    "id": "rubber-stamp--folk",
+    "image": "assets/catalogue/rubber-stamp--folk.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 191,
+    "id": "rubber-stamp--editorial",
+    "image": "assets/catalogue/rubber-stamp--editorial.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 192,
+    "id": "rubber-stamp--compact",
+    "image": "assets/catalogue/rubber-stamp--compact.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 193,
+    "id": "cut-paper--minimal",
+    "image": "assets/catalogue/cut-paper--minimal.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 194,
+    "id": "cut-paper--intricate",
+    "image": "assets/catalogue/cut-paper--intricate.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 195,
+    "id": "cut-paper--geometric",
+    "image": "assets/catalogue/cut-paper--geometric.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 196,
+    "id": "cut-paper--organic",
+    "image": "assets/catalogue/cut-paper--organic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 197,
+    "id": "cut-paper--vignette",
+    "image": "assets/catalogue/cut-paper--vignette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 198,
+    "id": "cut-paper--silhouette",
+    "image": "assets/catalogue/cut-paper--silhouette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 199,
+    "id": "red-papercut--minimal",
+    "image": "assets/catalogue/red-papercut--minimal.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 200,
+    "id": "red-papercut--intricate",
+    "image": "assets/catalogue/red-papercut--intricate.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 201,
+    "id": "red-papercut--geometric",
+    "image": "assets/catalogue/red-papercut--geometric.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 202,
+    "id": "red-papercut--organic",
+    "image": "assets/catalogue/red-papercut--organic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 203,
+    "id": "red-papercut--vignette",
+    "image": "assets/catalogue/red-papercut--vignette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 204,
+    "id": "red-papercut--silhouette",
+    "image": "assets/catalogue/red-papercut--silhouette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 205,
+    "id": "origami-scene--minimal",
+    "image": "assets/catalogue/origami-scene--minimal.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 206,
+    "id": "origami-scene--intricate",
+    "image": "assets/catalogue/origami-scene--intricate.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 207,
+    "id": "origami-scene--geometric",
+    "image": "assets/catalogue/origami-scene--geometric.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 208,
+    "id": "origami-scene--organic",
+    "image": "assets/catalogue/origami-scene--organic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 209,
+    "id": "origami-scene--vignette",
+    "image": "assets/catalogue/origami-scene--vignette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 210,
+    "id": "origami-scene--silhouette",
+    "image": "assets/catalogue/origami-scene--silhouette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 211,
+    "id": "paper-quilling--minimal",
+    "image": "assets/catalogue/paper-quilling--minimal.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 212,
+    "id": "paper-quilling--intricate",
+    "image": "assets/catalogue/paper-quilling--intricate.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 213,
+    "id": "paper-quilling--geometric",
+    "image": "assets/catalogue/paper-quilling--geometric.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 214,
+    "id": "paper-quilling--organic",
+    "image": "assets/catalogue/paper-quilling--organic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 215,
+    "id": "paper-quilling--vignette",
+    "image": "assets/catalogue/paper-quilling--vignette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 216,
+    "id": "paper-quilling--silhouette",
+    "image": "assets/catalogue/paper-quilling--silhouette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 217,
+    "id": "torn-collage--minimal",
+    "image": "assets/catalogue/torn-collage--minimal.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 218,
+    "id": "torn-collage--intricate",
+    "image": "assets/catalogue/torn-collage--intricate.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 219,
+    "id": "torn-collage--geometric",
+    "image": "assets/catalogue/torn-collage--geometric.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 220,
+    "id": "torn-collage--organic",
+    "image": "assets/catalogue/torn-collage--organic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 221,
+    "id": "torn-collage--vignette",
+    "image": "assets/catalogue/torn-collage--vignette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 222,
+    "id": "torn-collage--silhouette",
+    "image": "assets/catalogue/torn-collage--silhouette.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 223,
+    "id": "clay-miniature--minimal",
+    "image": "assets/catalogue/clay-miniature--minimal.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 224,
+    "id": "clay-miniature--mini-world",
+    "image": "assets/catalogue/clay-miniature--mini-world.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 225,
+    "id": "clay-miniature--soft-form",
+    "image": "assets/catalogue/clay-miniature--soft-form.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 226,
+    "id": "clay-miniature--structured",
+    "image": "assets/catalogue/clay-miniature--structured.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 227,
+    "id": "clay-miniature--macro",
+    "image": "assets/catalogue/clay-miniature--macro.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 228,
+    "id": "clay-miniature--toy-scale",
+    "image": "assets/catalogue/clay-miniature--toy-scale.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 229,
+    "id": "felt-craft--minimal",
+    "image": "assets/catalogue/felt-craft--minimal.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 230,
+    "id": "felt-craft--mini-world",
+    "image": "assets/catalogue/felt-craft--mini-world.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 231,
+    "id": "felt-craft--soft-form",
+    "image": "assets/catalogue/felt-craft--soft-form.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 232,
+    "id": "felt-craft--structured",
+    "image": "assets/catalogue/felt-craft--structured.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 233,
+    "id": "felt-craft--macro",
+    "image": "assets/catalogue/felt-craft--macro.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 234,
+    "id": "felt-craft--toy-scale",
+    "image": "assets/catalogue/felt-craft--toy-scale.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 235,
+    "id": "ceramic-miniature--minimal",
+    "image": "assets/catalogue/ceramic-miniature--minimal.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 236,
+    "id": "ceramic-miniature--mini-world",
+    "image": "assets/catalogue/ceramic-miniature--mini-world.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 237,
+    "id": "ceramic-miniature--soft-form",
+    "image": "assets/catalogue/ceramic-miniature--soft-form.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 238,
+    "id": "ceramic-miniature--structured",
+    "image": "assets/catalogue/ceramic-miniature--structured.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 239,
+    "id": "ceramic-miniature--macro",
+    "image": "assets/catalogue/ceramic-miniature--macro.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 240,
+    "id": "ceramic-miniature--toy-scale",
+    "image": "assets/catalogue/ceramic-miniature--toy-scale.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 241,
+    "id": "wooden-toy--minimal",
+    "image": "assets/catalogue/wooden-toy--minimal.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 242,
+    "id": "wooden-toy--mini-world",
+    "image": "assets/catalogue/wooden-toy--mini-world.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 243,
+    "id": "wooden-toy--soft-form",
+    "image": "assets/catalogue/wooden-toy--soft-form.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 244,
+    "id": "wooden-toy--structured",
+    "image": "assets/catalogue/wooden-toy--structured.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 245,
+    "id": "wooden-toy--macro",
+    "image": "assets/catalogue/wooden-toy--macro.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 246,
+    "id": "wooden-toy--toy-scale",
+    "image": "assets/catalogue/wooden-toy--toy-scale.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 247,
+    "id": "low-poly--minimal",
+    "image": "assets/catalogue/low-poly--minimal.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 248,
+    "id": "low-poly--mini-world",
+    "image": "assets/catalogue/low-poly--mini-world.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 249,
+    "id": "low-poly--soft-form",
+    "image": "assets/catalogue/low-poly--soft-form.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 250,
+    "id": "low-poly--structured",
+    "image": "assets/catalogue/low-poly--structured.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 251,
+    "id": "low-poly--macro",
+    "image": "assets/catalogue/low-poly--macro.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 252,
+    "id": "low-poly--toy-scale",
+    "image": "assets/catalogue/low-poly--toy-scale.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 253,
+    "id": "isometric--minimal",
+    "image": "assets/catalogue/isometric--minimal.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 254,
+    "id": "isometric--modular",
+    "image": "assets/catalogue/isometric--modular.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 255,
+    "id": "isometric--negative",
+    "image": "assets/catalogue/isometric--negative.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 256,
+    "id": "isometric--dynamic",
+    "image": "assets/catalogue/isometric--dynamic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 257,
+    "id": "isometric--balanced",
+    "image": "assets/catalogue/isometric--balanced.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 258,
+    "id": "isometric--nested",
+    "image": "assets/catalogue/isometric--nested.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 259,
+    "id": "flat-geometric--minimal",
+    "image": "assets/catalogue/flat-geometric--minimal.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 260,
+    "id": "flat-geometric--modular",
+    "image": "assets/catalogue/flat-geometric--modular.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 261,
+    "id": "flat-geometric--negative",
+    "image": "assets/catalogue/flat-geometric--negative.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 262,
+    "id": "flat-geometric--dynamic",
+    "image": "assets/catalogue/flat-geometric--dynamic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 263,
+    "id": "flat-geometric--balanced",
+    "image": "assets/catalogue/flat-geometric--balanced.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 264,
+    "id": "flat-geometric--nested",
+    "image": "assets/catalogue/flat-geometric--nested.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 265,
+    "id": "bauhaus-poster--minimal",
+    "image": "assets/catalogue/bauhaus-poster--minimal.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 266,
+    "id": "bauhaus-poster--modular",
+    "image": "assets/catalogue/bauhaus-poster--modular.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 267,
+    "id": "bauhaus-poster--negative",
+    "image": "assets/catalogue/bauhaus-poster--negative.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 268,
+    "id": "bauhaus-poster--dynamic",
+    "image": "assets/catalogue/bauhaus-poster--dynamic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 269,
+    "id": "bauhaus-poster--balanced",
+    "image": "assets/catalogue/bauhaus-poster--balanced.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 270,
+    "id": "bauhaus-poster--nested",
+    "image": "assets/catalogue/bauhaus-poster--nested.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 271,
+    "id": "pixel-art--iconic",
+    "image": "assets/catalogue/pixel-art--iconic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 272,
+    "id": "pixel-art--narrative",
+    "image": "assets/catalogue/pixel-art--narrative.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 273,
+    "id": "pixel-art--graphic",
+    "image": "assets/catalogue/pixel-art--graphic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 274,
+    "id": "pixel-art--dynamic",
+    "image": "assets/catalogue/pixel-art--dynamic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 275,
+    "id": "pixel-art--negative",
+    "image": "assets/catalogue/pixel-art--negative.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 276,
+    "id": "pixel-art--detail",
+    "image": "assets/catalogue/pixel-art--detail.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 277,
+    "id": "halftone-comic--iconic",
+    "image": "assets/catalogue/halftone-comic--iconic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 278,
+    "id": "halftone-comic--narrative",
+    "image": "assets/catalogue/halftone-comic--narrative.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 279,
+    "id": "halftone-comic--graphic",
+    "image": "assets/catalogue/halftone-comic--graphic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 280,
+    "id": "halftone-comic--dynamic",
+    "image": "assets/catalogue/halftone-comic--dynamic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 281,
+    "id": "halftone-comic--negative",
+    "image": "assets/catalogue/halftone-comic--negative.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 282,
+    "id": "halftone-comic--detail",
+    "image": "assets/catalogue/halftone-comic--detail.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 283,
+    "id": "retro-travel--iconic",
+    "image": "assets/catalogue/retro-travel--iconic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 284,
+    "id": "retro-travel--narrative",
+    "image": "assets/catalogue/retro-travel--narrative.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 285,
+    "id": "retro-travel--graphic",
+    "image": "assets/catalogue/retro-travel--graphic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 286,
+    "id": "retro-travel--dynamic",
+    "image": "assets/catalogue/retro-travel--dynamic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 287,
+    "id": "retro-travel--negative",
+    "image": "assets/catalogue/retro-travel--negative.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 288,
+    "id": "retro-travel--detail",
+    "image": "assets/catalogue/retro-travel--detail.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 289,
+    "id": "botanical-plate--contour",
+    "image": "assets/catalogue/botanical-plate--contour.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 290,
+    "id": "botanical-plate--detail",
+    "image": "assets/catalogue/botanical-plate--detail.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 291,
+    "id": "botanical-plate--isolated",
+    "image": "assets/catalogue/botanical-plate--isolated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 292,
+    "id": "botanical-plate--field",
+    "image": "assets/catalogue/botanical-plate--field.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 293,
+    "id": "botanical-plate--light",
+    "image": "assets/catalogue/botanical-plate--light.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 294,
+    "id": "botanical-plate--composition",
+    "image": "assets/catalogue/botanical-plate--composition.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 295,
+    "id": "embroidered--minimal",
+    "image": "assets/catalogue/embroidered--minimal.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 296,
+    "id": "embroidered--dense",
+    "image": "assets/catalogue/embroidered--dense.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 297,
+    "id": "embroidered--outline",
+    "image": "assets/catalogue/embroidered--outline.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 298,
+    "id": "embroidered--patch",
+    "image": "assets/catalogue/embroidered--patch.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 299,
+    "id": "embroidered--relief",
+    "image": "assets/catalogue/embroidered--relief.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 300,
+    "id": "embroidered--folk",
+    "image": "assets/catalogue/embroidered--folk.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 301,
+    "id": "paper-lightbox",
+    "image": "assets/catalogue/paper-lightbox.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 302,
+    "id": "popup-book",
+    "image": "assets/catalogue/popup-book.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 303,
+    "id": "photo-doodle",
+    "image": "assets/catalogue/photo-doodle.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 304,
+    "id": "zine-collage",
+    "image": "assets/catalogue/zine-collage.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 305,
+    "id": "dither-duotone",
+    "image": "assets/catalogue/dither-duotone.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 306,
+    "id": "ascii-mosaic",
+    "image": "assets/catalogue/ascii-mosaic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 307,
+    "id": "stained-glass",
+    "image": "assets/catalogue/stained-glass.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  },
+  {
+    "number": 308,
+    "id": "bubble-mosaic",
+    "image": "assets/catalogue/bubble-mosaic.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "decision": "preserve",
+    "reason": "整体构图在封面中可辨，未发现与首张相同的明显偏移空白问题"
+  }
+]

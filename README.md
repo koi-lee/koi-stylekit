@@ -13,12 +13,14 @@ A local illustration style gallery, Python CLI, and agent skill sharing one prom
 | ![淡彩速写](wireframes/assets/style-10-rain-v1.png) | ![双色孔版](wireframes/assets/yang-167-v1.png) | ![彩铅日记](wireframes/assets/yang-169-v1.png) |
 | `emotional-sketch` | `duotone-print` | `colored-pencil-diary` |
 
-文档提供中英文版本；当前网页界面与导出的风格配方仍以中文为主。
+文档提供简体中文、英文、日文、韩文和西班牙文版本；当前网页界面与导出的风格配方仍以中文为主。
 
 搜索引擎与 AI 阅读入口：[机器可读项目摘要](wireframes/llms.txt) · [爬虫规则](wireframes/robots.txt)。部署到正式域名后，请把 `robots.txt` 中的 Sitemap 地址替换为实际站点地址。
 
 
 当前目录包含 **308 项配方，48 个风格家族与 260 个画法变体**。按媒介、家族或编号筛选；每项可预览样图、比较和导出。变体表示同一媒介下不同处理方式，样图不保证跨主题复现。
+
+最新实现、验收与待办见 [交付状态](docs/交付状态.md)。
 
 ## 在线体验与静态部署
 
